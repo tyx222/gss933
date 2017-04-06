@@ -1,0 +1,84 @@
+@media screen and (min-width:599px) {
+    .useBox {
+        width: 500px;
+        height: 15vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10vh;
+    }
+    .useBox h5 {
+        font-size: 2rem;
+        width: 100vw;
+        text-align: center
+    }
+    .useBox input {
+        height: 4vh;
+        width: 359px
+    }
+    .left {
+        width: 70px;
+        height: 4vh;
+        background-color: #F18215;
+        border: 0;
+        color: #fff;
+    }
+    .Mleft {
+        margin-right: 15vw
+    }
+    .up {
+        width: 360px;
+        margin-top: 6vh;
+        font-size: 1rem
+    }
+    .up>a {
+        margin-top: 3vh;
+        display: inline-block
+    }
+}
+
+@media screen and (max-width:599px) {
+    .useBox {
+        width: 70vw;
+        height: 15vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10vh
+    }
+    .Mleft {
+        margin-right: 5vw
+    }
+    .useBox h5 {
+        font-size: 1.2rem;
+        width: 99vw;
+        text-align: center;
+        margin-bottom: 3vh
+    }
+    .useBox input {
+        height: 4vh;
+        width: 70vh;
+        border: 1px solid #E0E0E0
+    }
+    .left {
+        width: 18vw;
+        height: 4vh;
+        background-color: #F18215;
+        border: 0;
+        color: #fff;
+    }
+    .up {
+        width: 70vw;
+        font-size: 1rem;
+        margin-top: 5vh
+    }
+    .up>a {
+        margin-top: 3vh;
+        display: inline-block
+    }
+}
+
+.pos {
+    position: absolute;
+    bottom: 0
+}

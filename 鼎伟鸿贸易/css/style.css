@@ -1,0 +1,180 @@
+        * {
+            list-style: none;
+            font-size: 14px;
+            margin: 0 auto;
+            padding: 0;
+            outline: none;
+            text-decoration: none;
+        }
+        
+        header {
+            border: 1px solid #E9E9E9;
+            height: 5vh;
+            font-size: 1.2rem;
+            padding-top: 1vh
+        }
+        
+        .OFF {
+            width: 15px!important;
+            margin-right: 5vw!important
+        }
+        
+        .yero {
+            color: #F18215;
+        }
+        
+        .con {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            background-color: #F9F9F9;
+            text-align: center;
+            width: 100vw;
+            height: auto;
+            padding-bottom: 5vh
+        }
+        
+        .con>h1 {
+            font-size: 1.3rem;
+            width: 100vw;
+            margin-top: 1vh
+        }
+        
+        .con>h3 {
+            font-size: 1rem;
+            width: 100vw;
+            margin-top: 1vh
+        }
+        
+        @media screen and (max-width:599px) {
+            .tab {
+                width: 80vw;
+                height: auto;
+                background-color: #fff;
+                margin-top: 2vh
+            }
+            .tab-nav {
+                width: 39.3vw;
+                height: 5vh;
+                border: 1px solid #E0E0E0;
+                color: #F18215;
+                line-height: 5vh;
+                float: left
+            }
+            .tabCompany {
+                width: 80vw;
+                text-align: left;
+                clear: left;
+            }
+            .tabCompany ul li {
+                font-size: 1.2rem;
+                border: 1px solid #E0E0E0;
+                height: 5vh;
+                line-height: 5vh;
+                padding-left: 3vw;
+            }
+            .subm {
+                background-color: #F18215;
+                border: 0;
+                color: #fff;
+                width: 30vw;
+                height: 6vh;
+                margin-top: 5vh
+            }
+            .logo {
+                float: left;
+                margin-left: 2vw
+            }
+            .logo>img {
+                max-width: 20vw
+            }
+            .signin {
+                float: right;
+                margin-right: 2vw
+            }
+        }
+        
+        @media screen and (min-width:599px) {
+            .tab {
+                width: 434px;
+                height: auto;
+                background-color: #fff;
+                margin-top: 2vh
+            }
+            .tab-nav {
+                width: 215px;
+                height: 5vh;
+                border: 1px solid #E0E0E0;
+                line-height: 5vh;
+                color: #F18215;
+                float: left
+            }
+            .tabCompany {
+                width: 434px;
+                text-align: left;
+                clear: left
+            }
+            .tabCompany ul li {
+                font-size: 1rem;
+                border: 1px solid #E0E0E0;
+                height: 5vh;
+                line-height: 5vh;
+                padding-left: 3vw
+            }
+            .subm {
+                background-color: #F18215;
+                border: 0;
+                color: #fff;
+                width: 140px;
+                height: 5vh;
+                margin-top: 5vh
+            }
+            .logo {
+                float: left;
+                margin-left: 10vw;
+            }
+            .logo>img {
+                max-width: 20vw
+            }
+            .signin {
+                float: right;
+                margin-right: 5vw;
+                padding-right: 5px
+            }
+        }
+        
+        .tabCompany ul li img {
+            width: 4vw;
+            float: right;
+            margin-right: 5vw;
+            margin-top: 1vh
+        }
+        
+        .check {
+            text-align: left;
+            margin-top: 2vh;
+            line-height: 3vh;
+            border: 0!important
+        }
+        
+        .mgc {
+            outline: none
+        }
+        
+        .foot {
+            background-color: #494949;
+            color: #757575
+        }
+        
+        .foot {
+            width: 100vw;
+            bottom: 0;
+            height: 10vh;
+            padding-top: 3vh
+        }
+        
+        .foot>p {
+            width: 100vw;
+            text-align: center;
+            font-size: 0.8rem
+        }
