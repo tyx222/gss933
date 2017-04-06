@@ -49,7 +49,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 10vh
+        margin-top: 10vh;
+        border: 1px solid #000
     }
     .Mleft {
         margin-right: 5vw
@@ -75,8 +76,9 @@
     .up {
         width: 70vw;
         font-size: 1rem;
-        margin-top: 3rem;
-        height: 20rem
+        margin-top: 5rem;
+        height: 14rem;
+        border: 1px solid #000
     }
     .up>a {
         margin-top: 3rem;
