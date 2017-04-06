@@ -67,7 +67,7 @@
     }
     .left {
         width: 18vw;
-        height: 4vh;
+        height: 1.5rem;
         background-color: #F18215;
         border: 0;
         color: #fff;
@@ -75,11 +75,11 @@
     .up {
         width: 70vw;
         font-size: 1rem;
-        margin-top: 5vh;
+        margin-top: 3rem;
         height: 50.5vh
     }
     .up>a {
-        margin-top: 3vh;
+        margin-top: 3rem;
         display: inline-block
     }
 }
