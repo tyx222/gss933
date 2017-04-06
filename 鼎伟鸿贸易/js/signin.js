@@ -40,3 +40,11 @@ $(function() {
         }
     })
 })
+
+　
+var deviceH = document.documentElement.clientHeight + "px";
+
+　　　　　　　 //表单获得焦点后动态改变body和背景图片的大小
+$('select,input').on("click", function() {
+    $("body").attr("style", "background:url('./img/bg2.jpg') no-repeat;width:100%;height:" + deviceH + ";background-size: 100%" + deviceH);
+});
