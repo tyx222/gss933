@@ -162,15 +162,12 @@
         }
         
         .foot {
-            background-color: #494949;
-            color: #757575
-        }
-        
-        .foot {
             width: 100vw;
             bottom: 0;
             height: 10vh;
-            padding-top: 3vh
+            padding-top: 3vh;
+            background-color: #494949;
+            color: #757575
         }
         
         .foot>p {
