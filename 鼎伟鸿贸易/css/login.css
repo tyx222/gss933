@@ -45,7 +45,7 @@
 @media screen and (max-width:599px) {
     .useBox {
         width: 70vw;
-        height: 15vh;
+        height: 10rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
