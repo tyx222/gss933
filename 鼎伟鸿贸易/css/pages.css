@@ -1,0 +1,455 @@
+/*PC端*/
+
+a:hover {
+    text-decoration: none
+}
+
+@media screen and (min-width:760px) {
+    .padd {
+        height: 40vh;
+        background: #efefef
+    }
+    .disp {
+        display: flex;
+        justify-content: center
+    }
+    .signin>div>a>img {
+        width: 1.5rem
+    }
+    .signin>div {
+        width: 7rem;
+        height: 6vh;
+        overflow: hidden;
+    }
+    .logo>p {
+        height: 6vh;
+        margin-left: 6vw;
+        font-size: 0.8rem;
+        padding-top: 0.5vh
+    }
+    .logo>img {
+        height: 2vw
+    }
+    .right {
+        margin-left: -20vw
+    }
+    .bor3>li {
+        margin-top: 8vh
+    }
+    .bor1>ul>ol>li {
+        font-size: 1.2rem;
+        font-weight: 600;
+        border: 1px solid #DFDFDF;
+        height: 4vh;
+        line-height: 4vh;
+        margin: 1vw;
+        text-align: center;
+    }
+    .on {
+        margin-top: 3vh
+    }
+    .to {
+        margin-top: 5vh
+    }
+    .bor2 li {
+        border: 1px solid #DFDFDF;
+        text-align: center;
+        font-size: 0.8rem;
+        height: 6vh;
+        display: flex;
+        align-items: center;
+    }
+    .le {
+        margin-left: 2vw!important
+    }
+    .bor3 {
+        border: 1px solid #DFDFDF;
+        padding-bottom: 3vh;
+        background: #fff
+    }
+    .bor2 button {
+        width: 10vw;
+        height: 3vh;
+        border-radius: 3vh;
+        border: 1px solid #DFDFDF;
+        background: #fff;
+        margin-left: 2vw;
+    }
+    .ov {
+        position: absolute;
+        width: 20vw;
+        margin-left: 10vw;
+        top: 0
+    }
+    .box {
+        background-color: #fff;
+        margin-top: 1.8vh;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        position: absolute;
+        margin-left: 30vw;
+        top: 1.1vh
+    }
+    .df {
+        border-radius: 0!important;
+        height: 4vh;
+        width: 14vw;
+        position: relative;
+        line-height: 4vh;
+        padding-left: 2vw;
+        margin-left: 5vw;
+        margin-top: -1vh
+    }
+    .df>i {
+        position: absolute;
+        margin-top: 1.1vh;
+        margin-left: -2vw
+    }
+    .heaa {
+        margin-left: 2vw;
+        margin-top: 3vh
+    }
+    .foot2 {
+        background-color: #494949;
+        width: auto;
+        height: 25vh;
+        padding-top: 5vh;
+        padding-left: 15vw;
+    }
+    .foot2>p {
+        width: 75vw;
+        height: 10vh;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        line-height: 10vh;
+        padding-left: 5vw;
+        font-weight: 900;
+        font-size: 0.8rem;
+        color: #999
+    }
+    .foot2>p>a>img {
+        width: 1.5vw
+    }
+    .foot2>span {
+        font-weight: 900;
+        font-size: 0.8rem;
+        color: #BFBFBF;
+        margin-left: 30vw;
+        margin-top: 5vh;
+        display: inline-block
+    }
+    .view {
+        color: #F2A04A;
+        border: 1px solid #F2A04A;
+        background: #fff;
+        width: 8vw;
+    }
+    .view2 {
+        color: #F2A04A;
+        border: 1px solid #F2A04A;
+        background: #fff;
+        width: 8vw;
+        margin-top: 3vh;
+        margin-right: 6vw;
+        float: right;
+    }
+    .right {
+        float: right;
+        margin-right: 5vw;
+        color: #efefef
+    }
+    #textCount {
+        position: absolute;
+        bottom: 14vh;
+        right: 5vw;
+        color: #999
+    }
+    .bor4 {
+        padding-bottom: 5vh;
+    }
+    .box {
+        padding-bottom: 3vh
+    }
+    .v1 button {
+        color: #F2A04A;
+        border-radius: 3vh;
+        border: 1px solid #DFDFDF;
+        background: #fff;
+        margin-left: 2vh;
+        height: 5vh;
+        width: 10rem;
+        margin-top: -1vh
+    }
+    .v2 button {
+        color: #F2A04A;
+        border-radius: 3vh;
+        border: 1px solid #DFDFDF;
+        background: #fff;
+        margin-left: 2vh;
+        height: 5vh;
+        width: 15rem;
+    }
+    v3 {
+        margin-top: 3vh
+    }
+    .back {
+        background: #efefef;
+        width: auto;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        position: relative;
+        height: 135vh
+    }
+    .bor3 li {
+        margin-top: 6vh
+    }
+    .dd {
+        position: absolute!important;
+        margin-left: 1vw!important;
+        margin-top: -1vh!important
+    }
+    #TextArea1 {
+        background-color: #fff;
+        margin-left: 5vw
+    }
+    .pad {
+        padding-top: 2vh
+    }
+}
+
+
+/*移动端*/
+
+@media screen and (max-width:760px) {
+    .bor2 button {
+        height: 4vh;
+        border-radius: 4vh;
+        border: 1px solid #efefef;
+        background: #fff;
+        margin-left: 2vw
+    }
+    .heaa {
+        width: 15vw!important;
+        height: 15vw!important;
+        border-radius: 15vw!important;
+        margin-left: 15vw;
+        margin-top: 5vh
+    }
+    .disp {
+        display: flex;
+        justify-content: center
+    }
+    .signin>div {
+        width: 6vw;
+        height: 3vh;
+        margin-right: 3vw
+    }
+    .signin>div>a>img {
+        width: 2rem;
+        margin-right: 4vw!important
+    }
+    .signin>div>a {
+        display: inline-block;
+    }
+    .logo>p {
+        height: 0vh;
+        width: 0vw;
+        overflow: hidden
+    }
+    .logo {
+        height: 3vh
+    }
+    .back {
+        background: #efefef;
+        width: auto;
+        height: auto;
+        min-height: 130vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        position: relative
+    }
+    .bor3 {
+        border: 1px solid #DFDFDF;
+        margin-left: 0.5vw;
+        padding-bottom: 3vh;
+        background: #fff
+    }
+    .bor4 {
+        margin-left: 0.5vw;
+        padding-bottom: 5vh;
+        background: #fff
+    }
+    .top {
+        margin-top: 12vh!important;
+        margin-left: 30vw;
+    }
+    .bor1>ul>ol>li {
+        font-size: 1.2rem;
+        font-weight: 600;
+        border: 1px solid #DFDFDF;
+        height: 6vh;
+        line-height: 6vh;
+        margin: 1vw;
+        text-align: center;
+    }
+    .bor1>ul>li {
+        font-size: 1.2rem;
+        font-weight: 600;
+        height: 3vh;
+        padding-left: 10vw
+    }
+    .bor2 li {
+        border: 1px solid #DFDFDF;
+        text-align: left;
+        font-size: 0.4rem;
+        padding-right: 2vw;
+        height: 6vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+    .bor2 {
+        background: #fff;
+        margin-left: 0.5vw
+    }
+    .le {
+        margin-left: -8vw
+    }
+    .df {
+        border-radius: 0!important;
+        height: 4vh;
+        width: 38vw;
+        position: relative;
+        line-height: 4vh;
+        padding-left: 2vw;
+        margin-left: 5vw;
+        margin-top: 5vh
+    }
+    .df>i {
+        position: absolute;
+        margin-top: 1.1vh;
+        margin-left: -5vw
+    }
+    .foot2 {
+        background-color: #494949;
+        width: 100vw;
+        height: 25vh;
+        padding-top: 5vh;
+        padding-left: 15vw;
+        margin-top: 5vh;
+    }
+    .foot2>p {
+        width: 55vw;
+        height: 10vh;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        line-height: 10vh;
+        padding-left: 5vw;
+        font-weight: 900;
+        font-size: 0.8rem;
+        color: #999
+    }
+    .foot2>p>a>img {
+        width: 3.5vw
+    }
+    .foot2>span {
+        font-weight: 900;
+        font-size: 0.8rem;
+        color: #999
+    }
+    .box {
+        padding-top: 5vh
+    }
+    .view {
+        color: #F2A04A;
+        border: 1px solid #F2A04A;
+        background: #fff;
+        width: 25vw;
+    }
+    .view2 {
+        color: #F2A04A;
+        border: 1px solid #F2A04A;
+        background: #fff;
+        width: 25vw;
+        margin-top: 6vh;
+        margin-right: 6vw;
+        float: right
+    }
+    .right {
+        float: right;
+        margin-right: 5vw;
+        color: #efefef
+    }
+    #textCount {
+        position: absolute;
+        bottom: 15vh;
+        right: 5vw;
+        color: #999
+    }
+    #i1 {
+        margin-top: 5vh
+    }
+    #i2 {
+        margin-top: 5vh
+    }
+    .bor3 button {
+        color: #F2A04A;
+        border-radius: 3vh;
+        border: 1px solid #DFDFDF;
+        background: #fff;
+        margin-left: 2vh;
+        height: 5vh
+    }
+    .bor3 li {
+        margin-top: 5vh
+    }
+    .v1>button {
+        width: 40vw
+    }
+    .back-sm {
+        height: auto!important
+    }
+}
+
+header {
+    height: 6vh;
+}
+
+.back {
+    background-color: #efefef;
+    margin-right: 0
+}
+
+.bor1 {
+    background: #fff
+}
+
+.bor1 img {
+    height: 8vw;
+    width: 8vw;
+    border-radius: 8vw
+}
+
+.yero1 {
+    color: #F2A04A!important
+}
+
+.border>li {
+    border: 1px solid #DFDFDF;
+    padding-bottom: 5vh
+}
+
+.text {
+    height: 50vh;
+    resize: none;
+    position: relative
+}
+
+.size {
+    font-size: 2rem;
+    color: #F2A04A
+}
+
+.bg {
+    background-color: #efefef!important
+}
