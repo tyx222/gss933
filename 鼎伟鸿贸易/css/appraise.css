@@ -3,6 +3,7 @@
         width: 100vw;
         overflow: hidden;
         margin-left: 0vw!important;
+        height: 4rem
     }
     body {
         overflow-x: hidden
@@ -19,7 +20,7 @@
         padding-left: 2vw
     }
     .message>ul>li {
-        height: 3vh;
+        height: 2rem;
         width: 95vw;
         margin-top: -3.5vh;
         margin-left: 8vw;
@@ -28,7 +29,7 @@
     .grade {
         border: 1px solid #999;
         width: 98vw;
-        height: 40vh;
+        height: 18rem;
         margin-left: 1vw;
         margin-top: 5vh
     }
