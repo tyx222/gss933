@@ -200,7 +200,6 @@ a:hover {
         padding-bottom: 5vh;
         position: relative;
         min-height: 135vh;
-        border: 1px solid #000
     }
     .bor3 li {
         margin-top: 6vh
@@ -415,7 +414,7 @@ a:hover {
         margin-top: 5vh
     }
     .v1>button {
-        width: 40vw
+        width: 36vw
     }
     .back-sm {
         height: auto!important
