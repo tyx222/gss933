@@ -256,6 +256,9 @@ a:hover {
     .col-xs-12 {
         width: 96%!important;
     }
+    .bg {
+        height: 24rem
+    }
     .heaa {
         width: 6rem!important;
         height: 6rem!important;
