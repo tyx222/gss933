@@ -54,7 +54,8 @@
         height: 5vh;
         border-radius: 5vh;
         background: #fff;
-        width: 10rem
+        width: 13rem;
+        margin-left: 15vw
     }
     .grade>div>span {
         margin-top: 5vh;
