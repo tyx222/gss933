@@ -87,7 +87,8 @@
                 margin-left: 2vw
             }
             .logo>img {
-                max-width: 20vw
+                max-width: 8rem;
+                height: 2rem
             }
             .signin {
                 float: right;
