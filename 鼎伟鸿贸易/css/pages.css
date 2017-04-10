@@ -285,7 +285,7 @@ a:hover {
         background: #fff
     }
     .bor4 {
-        margin-left: 0.5vw;
+        padding-left: 1vw!important;
         padding-bottom: 5vh;
         background: #fff
     }
@@ -446,13 +446,15 @@ header {
 
 .border>li {
     border: 1px solid #DFDFDF;
-    padding-bottom: 5vh
+    padding-bottom: 5vh;
+    margin-left: 3.5vw
 }
 
 .text {
     height: 50vh;
     resize: none;
-    position: relative
+    position: relative;
+    margin-left: 3.6vw
 }
 
 .size {
