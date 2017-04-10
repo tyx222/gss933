@@ -219,6 +219,15 @@ a:hover {
     body {
         overflow-x: hidden
     }
+    .text {
+        height: 50vh;
+        resize: none;
+        position: relative;
+    }
+    .border>li {
+        border: 1px solid #DFDFDF;
+        padding-bottom: 5vh;
+    }
 }
 
 
@@ -227,6 +236,12 @@ a:hover {
 @media screen and (max-width:760px) {
     body {
         overflow-x: hidden
+    }
+    .text {
+        height: 50vh;
+        resize: none;
+        position: relative;
+        margin-left: 3.6vw
     }
     .bor2 button {
         height: 4vh;
@@ -419,6 +434,11 @@ a:hover {
     .back-sm {
         height: auto!important
     }
+    .border>li {
+        border: 1px solid #DFDFDF;
+        padding-bottom: 5vh;
+        margin-left: 3.5vw
+    }
 }
 
 header {
@@ -442,19 +462,6 @@ header {
 
 .yero1 {
     color: #F2A04A!important
-}
-
-.border>li {
-    border: 1px solid #DFDFDF;
-    padding-bottom: 5vh;
-    margin-left: 3.5vw
-}
-
-.text {
-    height: 50vh;
-    resize: none;
-    position: relative;
-    margin-left: 3.6vw
 }
 
 .size {
