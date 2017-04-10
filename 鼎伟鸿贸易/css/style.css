@@ -59,7 +59,8 @@
                 border: 1px solid #E0E0E0;
                 color: #F18215;
                 line-height: 5vh;
-                float: left
+                float: left;
+                font-size: 0.8rem
             }
             .tabCompany {
                 width: 80vw;
@@ -92,9 +93,16 @@
                 float: right;
                 margin-right: 2vw
             }
+            .look li {
+                padding-left: 10vw!important;
+            }
         }
         
         @media screen and (min-width:599px) {
+            .pos {
+                position: absolute;
+                bottom: 0
+            }
             .tab {
                 width: 434px;
                 height: auto;

@@ -40,8 +40,9 @@ a:hover {
         font-size: 1.2rem;
         font-weight: 600;
         border: 1px solid #DFDFDF;
-        height: 4vh;
-        line-height: 4vh;
+        width: 10rem;
+        height: 3rem;
+        line-height: 3rem;
         margin: 1vw;
         text-align: center;
     }
@@ -83,12 +84,11 @@ a:hover {
     }
     .box {
         background-color: #fff;
-        margin-top: 1.8vh;
         padding-right: 2vw;
         padding-left: 2vw;
-        position: absolute;
+        position: absolute!important;
         margin-left: 30vw;
-        top: 1.1vh
+        margin-top: 2rem
     }
     .df {
         border-radius: 0!important;
@@ -115,6 +115,7 @@ a:hover {
         height: 25vh;
         padding-top: 5vh;
         padding-left: 15vw;
+        margin-top: 5vh
     }
     .foot2>p {
         width: 75vw;
@@ -198,7 +199,8 @@ a:hover {
         padding-top: 5vh;
         padding-bottom: 5vh;
         position: relative;
-        height: 135vh
+        min-height: 135vh;
+        border: 1px solid #000
     }
     .bor3 li {
         margin-top: 6vh
@@ -215,18 +217,27 @@ a:hover {
     .pad {
         padding-top: 2vh
     }
+    body {
+        overflow-x: hidden
+    }
 }
 
 
 /*移动端*/
 
 @media screen and (max-width:760px) {
+    body {
+        overflow-x: hidden
+    }
     .bor2 button {
         height: 4vh;
         border-radius: 4vh;
         border: 1px solid #efefef;
         background: #fff;
         margin-left: 2vw
+    }
+    .col-xs-12 {
+        width: 96%!important;
     }
     .heaa {
         width: 15vw!important;
@@ -452,4 +463,8 @@ header {
 
 .bg {
     background-color: #efefef!important
+}
+
+.top>li>a {
+    color: #999
 }

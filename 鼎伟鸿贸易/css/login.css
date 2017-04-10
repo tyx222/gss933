@@ -43,6 +43,9 @@
 }
 
 @media screen and (max-width:599px) {
+    header {
+        height: 2rem!important
+    }
     .useBox {
         width: 70vw;
         height: 10rem;
@@ -50,7 +53,6 @@
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 10vh;
-        border: 1px solid #000
     }
     .Mleft {
         margin-right: 5vw
@@ -78,10 +80,13 @@
         font-size: 1rem;
         margin-top: 5rem;
         height: 14rem;
-        border: 1px solid #000
     }
     .up>a {
         margin-top: 3rem;
         display: inline-block
+    }
+    .foot {
+        bottom: 0;
+        position: absolute
     }
 }

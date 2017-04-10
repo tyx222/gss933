@@ -1,0 +1,72 @@
+@media screen and (max-width:599px) {
+    .email {
+        width: auto;
+        border: 1px solid #666;
+        margin-top: 10vh;
+        height: auto;
+        padding: 2vw
+    }
+    .blue {
+        color: #06c!important
+    }
+    .email>h1 {
+        font-size: 2rem;
+        margin-top: 7vh
+    }
+    .email>p {
+        color: #999;
+        margin-top: 2vh
+    }
+    .email>div {
+        margin-top: 5vh
+    }
+    .email>hr {
+        border-top: 1px solid #999;
+        margin-top: 2vh
+    }
+    .email>h4 {
+        margin-top: 5vh
+    }
+    .email>ul>li {
+        list-style-type: disc;
+        margin-top: 2vh
+    }
+    .pos {
+        margin-top: 5vh
+    }
+}
+
+@media screen and (min-width:599px) {
+    .email {
+        width: 50vw;
+        border: 1px solid #666;
+        margin-top: 5vh;
+        height: auto;
+        padding: 3vw
+    }
+    .blue {
+        color: #06c!important
+    }
+    .email>h1 {
+        font-size: 2rem;
+        margin-top: 7vh
+    }
+    .email>p {
+        color: #999;
+        margin-top: 2vh
+    }
+    .email>div {
+        margin-top: 5vh
+    }
+    .email>hr {
+        border-top: 1px solid #999;
+        margin-top: 2vh
+    }
+    .email>h4 {
+        margin-top: 5vh
+    }
+    .email>ul>li {
+        list-style-type: disc;
+        margin-top: 2vh
+    }
+}

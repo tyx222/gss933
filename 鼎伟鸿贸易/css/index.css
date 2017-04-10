@@ -1,0 +1,177 @@
+@media screen and (min-width:720px) {
+    .disp {
+        display: flex;
+    }
+    .disp>img {
+        height: 4vh;
+        margin-top: 0.1vh
+    }
+    .disp>p {
+        margin-left: 5vw;
+        font-size: 0.8rem;
+        margin-top: 0.8vh
+    }
+    .bor {
+        border: 1px solid #999;
+        display: inline-block;
+        height: 4vh;
+        width: 12rem;
+        text-align: center;
+        line-height: 4vh
+    }
+    .disp>div {
+        line-height: 4vh;
+        height: 4vh;
+        margin-right: 2vw
+    }
+    .disp>div>img {
+        height: 3vh;
+        position: relative;
+        top: 0.8vh
+    }
+    .bannar {
+        height: 65vh;
+        width: 100vw;
+        background-color: #F2A04A;
+        padding-top: 5vh;
+        position: relative;
+    }
+    .stry {
+        margin-left: 10vw;
+        margin-top: 8vh;
+        width: 37vw
+    }
+    .stry>h1 {
+        font-size: 3rem;
+        color: yellow;
+        padding-left: 1vw
+    }
+    .stry>p {
+        margin-top: 2vh
+    }
+    .stry>p>i {
+        color: #fff;
+        margin: 2vh;
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+    .stry>button {
+        border: 0;
+        background: yellow;
+        margin: 2vh;
+        margin-top: 5vh;
+        height: 4vh;
+        width: 9vw
+    }
+    .move {
+        position: absolute;
+        top: 10vh;
+        right: 10vh;
+        height: 48vh;
+        width: 45vw;
+        overflow: hidden
+    }
+    .tab {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        width: 45vw
+    }
+    .tab>ul>li {
+        height: 5vh;
+        display: inline-block;
+        line-height: 4vh;
+        text-align: center;
+        width: 10vw
+    }
+    .tab-video {
+        width: 45vw;
+        height: 20vh;
+        overflow: hidden;
+    }
+    .videoBox {
+        width: 200vw;
+    }
+    .videoBox>ul>li {
+        width: 22.5vw;
+        height: 20vh;
+        float: left;
+        background-color: #999
+    }
+}
+
+@media screen and (max-width:720px) {
+    .disp {
+        display: flex;
+    }
+    .disp>img {
+        height: 4vh;
+        margin-top: 0.1vh
+    }
+    .disp>p {
+        margin-left: 5vw;
+        font-size: 0.8rem;
+        height: 0;
+        width: 0;
+        overflow: hidden
+    }
+    .bor {
+        border: 1px solid #999;
+        display: inline-block;
+        height: 4vh;
+        width: 8rem;
+        text-align: center;
+        line-height: 4vh
+    }
+    .disp>div {
+        line-height: 4vh;
+        height: 4vh;
+        margin-right: 2vw;
+        width: 3vh;
+        overflow: hidden
+    }
+    .disp>div>img {
+        height: 3vh;
+        position: relative;
+        top: 0.8vh
+    }
+    .bannar {
+        height: 35vh;
+        width: 100vw;
+        background-color: #F2A04A;
+        padding-top: 5vh
+    }
+    .stry {
+        width: 0;
+        height: 0;
+        overflow: hidden
+    }
+    .move {
+        width: 100vw
+    }
+    .tab {
+        width: 80vw;
+        display: flex
+    }
+    .tab>ul>li {
+        height: 5vh;
+        display: inline-block;
+        line-height: 4vh;
+        text-align: center;
+        width: 21vw
+    }
+    .tab-video {
+        width: 80vw;
+        height: 20vh;
+        overflow: hidden;
+    }
+    .videoBox {
+        width: 300vw;
+    }
+    .videoBox>ul>li {
+        width: 40vw;
+        height: 20vh;
+        float: left;
+        background-color: #999
+    }
+}
