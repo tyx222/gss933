@@ -5,6 +5,9 @@ a:hover {
 }
 
 @media screen and (min-width:760px) {
+    header {
+        height: 6vh;
+    }
     .padd {
         height: 40vh;
         background: #efefef
@@ -238,7 +241,7 @@ a:hover {
         overflow-x: hidden
     }
     .text {
-        height: 50vh;
+        height: 15rem;
         resize: none;
         position: relative;
         margin-left: 3.6vw
@@ -254,9 +257,9 @@ a:hover {
         width: 96%!important;
     }
     .heaa {
-        width: 15vw!important;
-        height: 15vw!important;
-        border-radius: 15vw!important;
+        width: 6rem!important;
+        height: 6rem!important;
+        border-radius: 6rem!important;
         margin-left: 15vw;
         margin-top: 5vh
     }
@@ -312,7 +315,7 @@ a:hover {
         font-size: 1.2rem;
         font-weight: 600;
         border: 1px solid #DFDFDF;
-        height: 6vh;
+        height: 3rem;
         line-height: 6vh;
         margin: 1vw;
         text-align: center;
@@ -320,7 +323,7 @@ a:hover {
     .bor1>ul>li {
         font-size: 1.2rem;
         font-weight: 600;
-        height: 3vh;
+        height: 3rem;
         padding-left: 10vw
     }
     .bor2 li {
@@ -439,10 +442,9 @@ a:hover {
         padding-bottom: 5vh;
         margin-left: 3.5vw
     }
-}
-
-header {
-    height: 6vh;
+    header {
+        height: 3.5rem;
+    }
 }
 
 .back {
