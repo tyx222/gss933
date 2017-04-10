@@ -1,0 +1,180 @@
+@media screen and (max-width:599px) {
+    * {
+        margin-left: 0
+    }
+    header {
+        width: 100vw;
+        margin-left: 0
+    }
+    .contant {
+        width: 100vw;
+        margin-top: 2rem
+    }
+    .inpuu {
+        width: 100vw;
+        height: 2.8rem;
+        border-radius: 0.3rem;
+        border: 1px solid #999
+    }
+    .fon {
+        margin-left: 5rem;
+        margin-top: 2rem
+    }
+    .fon1 {
+        margin-top: 2rem
+    }
+    .io {
+        border: 1px solid #999;
+        width: 100vw;
+        margin-top: 2rem;
+        height: 20rem
+    }
+    .io>ul {
+        margin-top: 1rem;
+        padding-left: 1rem;
+        font-weight: 600
+    }
+    .io>p {
+        margin-top: 3rem;
+        text-align: right;
+        padding-right: 2rem
+    }
+    .io>p>span {
+        color: red;
+        font-size: 1.8rem
+    }
+    .upload {
+        border: 1px dashed #999;
+        width: 5rem;
+        height: 5rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        background-image: url(../img/加.png);
+        background-repeat: no-repeat;
+        background-size: 2rem 2rem;
+        background-position: 1.4rem 1rem;
+        overflow: hidden
+    }
+    .upload>p {
+        text-align: center;
+        margin-top: -6.5rem;
+        font-size: 0.4rem
+    }
+    #preview {
+        width: 9.9rem;
+        height: 9.8rem
+    }
+    #tab {
+        width: 100vw;
+        margin-top: 2rem;
+        margin-bottom: 2rem
+    }
+    #OK {
+        width: 15rem;
+        height: 3rem;
+        background: #F18215;
+        color: #fff;
+        margin-left: 5rem;
+        margin-top: 3rem
+    }
+}
+
+@media screen and (min-width:599px) {
+    .contant {
+        width: 800px;
+        margin-top: 5rem
+    }
+    .inpuu {
+        width: 35rem;
+        padding-left: 1rem;
+        height: 2.8rem;
+        border-radius: 0.5rem;
+        border: 1px solid #999
+    }
+    .fon {
+        margin-left: 2vw
+    }
+    .io {
+        border: 1px solid #999;
+        width: 54.5rem;
+        margin-left: 0;
+        margin-top: 2rem;
+        height: 23rem
+    }
+    .io>ul {
+        margin-top: 3rem;
+        padding-left: 3rem;
+        font-weight: 600
+    }
+    .io>p {
+        text-align: right;
+        padding-right: 2rem
+    }
+    .io>p>span {
+        color: red;
+        font-size: 1.8rem
+    }
+    .upload {
+        border: 1px dashed #999;
+        width: 10rem;
+        height: 10rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        background-image: url(../img/加.png);
+        background-repeat: no-repeat;
+        background-position: 3rem 2rem;
+        overflow: hidden
+    }
+    .upload>p {
+        text-align: center;
+        margin-top: -4rem;
+    }
+    #preview {
+        width: 9.9rem;
+        height: 9.8rem;
+    }
+    #tab {
+        width: 800px;
+        padding-left: 10vw;
+        margin-top: 5rem
+    }
+    #OK {
+        width: 15rem;
+        height: 3rem;
+        background: #F18215;
+        color: #fff;
+        margin-left: 25rem;
+        margin-top: 3rem
+    }
+    .tab-box {
+        margin-top: 2vh
+    }
+}
+
+.shang {
+    width: 1.2rem;
+    margin-left: 1rem
+}
+
+.contant>h5 {
+    font-weight: 500
+}
+
+.nbsp {
+    padding-right: 6rem
+}
+
+.tatle {
+    width: 100vw;
+    height: 3rem;
+    text-align: center
+}
+
+#tab>button {
+    width: 10rem;
+    height: 3rem;
+    margin-left: 2.1rem;
+    border: 1px solid #999;
+    background: #fff;
+    color: #F18215
+}
