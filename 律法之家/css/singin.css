@@ -1,0 +1,64 @@
+.singin-input {
+    height: 10.5rem;
+    background: #fff;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    border: 1px solid #DFDFE1;
+    position: relative
+}
+
+.yz {
+    width: 90vw!important;
+    height: 3.5rem;
+}
+
+.singin-input>button {
+    width: 6rem;
+    height: 2rem;
+    background: #F49401;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    border: 0;
+    margin-top: 4.4rem;
+    right: 1rem;
+    border-radius: 0.3rem
+}
+
+.singin-input input {
+    height: 3.5rem;
+    width: 90vw;
+    border: 1px solid #DFDFE1;
+    padding-left: 1rem
+}
+
+.Ok-button {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between
+}
+
+.Ok {
+    height: 3rem;
+    width: 90vw;
+    color: #fff;
+    border: 0;
+    border-radius: 0.3rem;
+    background: #F49401;
+}
+
+.input {
+    margin-top: 0.5rem;
+    width: 90vw
+}
+
+.input>a {
+    color: #F49401
+}
+
+.input>input {
+    border-radius: 50%
+}

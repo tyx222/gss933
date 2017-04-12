@@ -1,0 +1,40 @@
+.height {
+    height: 10rem;
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    padding-top: 1rem;
+    background: #fff;
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.foot>ul>li {
+    width: 20vw;
+    height: 3rem;
+    float: left
+}
+
+.foot a {
+    display: flex;
+    width: 15vw;
+    height: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5vw;
+    color: #666
+}
+
+.foot img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.yero {
+    color: #F18215!important
+}

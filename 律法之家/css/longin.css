@@ -1,0 +1,54 @@
+.login-input {
+    height: 7rem;
+    background: #fff;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    border: 1px solid #DFDFE1
+}
+
+.login-input input {
+    height: 3.5rem;
+    width: 30rem;
+    border: 1px solid #DFDFE1;
+    padding-left: 1rem
+}
+
+.login-button {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between
+}
+
+.login-button button {
+    height: 3rem;
+    width: 10.6rem;
+    color: #fff;
+    border: 0;
+    border-radius: 0.3rem
+}
+
+.singin {
+    background: #6BBDD0;
+    margin-right: 5vw
+}
+
+.login {
+    background: #F49401;
+}
+
+.Nopassword {
+    margin-top: 1rem;
+    margin-right: 0;
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem
+}
+
+.Nopassword>a {
+    color: #000
+}

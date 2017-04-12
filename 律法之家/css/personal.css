@@ -1,0 +1,83 @@
+body {
+    background: #fff
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2vh
+}
+
+.check p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90vw
+}
+
+.check span {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.2rem
+}
+
+.check ul {
+    margin-top: 1rem
+}
+
+.check ul li {
+    width: 90vw;
+    margin-top: 1vh;
+}
+
+.check ul li input {
+    display: inline-block;
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: #fff;
+}
+
+.check p input {
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.is {
+    width: 90vw;
+    margin-top: 1rem
+}
+
+.is>b {
+    color: red;
+    width: 3rem;
+    padding: 1vw;
+}
+
+.is>p {
+    margin-top: 1rem
+}
+
+.Ok-button {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between
+}
+
+.Ok {
+    height: 2.5rem;
+    width: 90vw;
+    color: #fff;
+    border: 0;
+    border-radius: 2.5rem;
+    background: #F49401;
+}
+
+.height {
+    height: 9rem
+}

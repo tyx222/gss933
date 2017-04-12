@@ -1,0 +1,64 @@
+                .train-input {
+                    height: 6rem;
+                    background: #fff;
+                    width: 100vw;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    border: 1px solid #DFDFE1;
+                    position: relative;
+                    align-items: center
+                }
+                
+                .train-input>p {
+                    padding-left: 2rem;
+                    color: #666;
+                    width: 90vw;
+                    height: 3rem;
+                    line-height: 3rem;
+                    display: flex;
+                    align-items: center;
+                }
+                
+                .train-input p input {
+                    border: 0;
+                    height: 2rem;
+                    outline: medium;
+                }
+                
+                .train-input span {
+                    width: 60vw
+                }
+                
+                .page {
+                    margin-top: 2rem;
+                    display: flex;
+                    justify-content: flex-start;
+                    width: 85vw;
+                    color: #666;
+                    font-weight: 400
+                }
+                
+                textarea {
+                    resize: none;
+                    width: 90vw;
+                    height: 12rem;
+                    margin-top: 1rem;
+                    border: 0;
+                    padding: 3vw
+                }
+                
+                .Ok-button {
+                    margin-top: 2rem;
+                    display: flex;
+                    justify-content: space-between
+                }
+                
+                .Ok {
+                    height: 3rem;
+                    width: 90vw;
+                    color: #fff;
+                    border: 0;
+                    border-radius: 0.3rem;
+                    background: #F49401;
+                }
