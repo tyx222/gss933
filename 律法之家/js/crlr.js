@@ -4,10 +4,10 @@
          console.log(tt)
          var height = $(document.body).height();
          console.log(height)
-         if (tt < 400) {
+         if (tt < 450) {
              $(".foot").hide()
          }
-         if (height > 400) { $(".foot").show() }
+         if (height > 450) { $(".foot").show() }
      })
 
  })
