@@ -11,7 +11,6 @@ $(function() {
     var $subBox = $("input[name='subBox']");
 
     $subBox.click(function() {
-        console.log($subBox.length)
         $("#checkAll").attr("checked", $subBox.length == $("input[name='subBox']:checked").length ? true : false);
     });
 });
