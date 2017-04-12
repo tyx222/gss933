@@ -1,13 +1,13 @@
  $(function() {
      $(window).resize(function() {
          var tt = $(".foot").offset().top
-         console.log(tt)
          var height = $(document.body).height();
-         console.log(height)
-         if (tt < 450) {
-             $(".foot").hide()
+         if (tt < 400) {
+             $(".foot").fadeOut()
          }
-         if (height > 450) { $(".foot").show() }
+         if (height > 400) {
+             $(".foot").show()
+         }
      })
 
  })
