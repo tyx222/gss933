@@ -1,0 +1,145 @@
+.name {
+    width: 6rem!important;
+    font-size: 1rem!important;
+    border: 1px solid #f6a01c;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f6a01c!important
+}
+
+.tt {
+    width: 100vw;
+    height: 1rem;
+    background: #DFDFE1
+}
+
+body {
+    background: #fff
+}
+
+.aleny-box {
+    margin-top: 0
+}
+
+.train-input {
+    height: auto;
+    background: #fff;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #DFDFE1;
+    position: relative;
+    align-items: center;
+    margin-top: 1rem;
+    padding-bottom: 2rem
+}
+
+.train-input {
+    margin-top: 0;
+    border: 0;
+    display: flex;
+    justify-content: center
+}
+
+.train-input>p {
+    padding-left: 2rem;
+    color: #666;
+    width: 100vw;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #DFDFE1;
+    font-weight: 600；
+}
+
+.train-input box {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    color: #666;
+    width: 100vw;
+    display: flex;
+    border-bottom: 1px solid #DFDFE1;
+    font-weight: 600
+}
+
+.train-input>p>span {
+    width: 60vw;
+    min-height: 2rem;
+    display: flex;
+    align-items: center;
+    color: #999;
+    padding-left: 1rem;
+    font-weight: 400
+}
+
+.train-input>box>span {
+    width: 60vw;
+    min-height: 2rem;
+    display: flex;
+    color: #999;
+    padding-left: 1rem;
+    font-weight: 400
+}
+
+.Ok-button {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between
+}
+
+.Ok {
+    height: 2.5rem;
+    width: 90vw;
+    color: #fff;
+    border: 0;
+    border-radius: 0.3rem;
+    background: #F49401;
+}
+
+.heigh {
+    height: 12rem
+}
+
+.aler {
+    z-index: 99;
+    background: none
+}
+
+.ddd {
+    background: #fff;
+    z-index: 2;
+    width: 80vw;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    padding-bottom: 0.3rem;
+    padding-top: 0.5rem
+}
+
+.ddd>button {
+    width: 80vw;
+    height: 4rem;
+    border-top: 1px solid #DFDFE1!important;
+    border: 0;
+    background-color: #fff;
+    color: #F49401;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.ddd>h1 {
+    font-size: 1.2rem
+}
+
+.renz {
+    background-color: #fff;
+    margin-top: 10rem;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    z-index: 99
+}

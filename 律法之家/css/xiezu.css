@@ -1,0 +1,33 @@
+.train-input b {
+    width: 5rem;
+}
+
+#pages {
+    resize: none;
+    width: 90vw;
+    height: 5rem;
+    margin-top: 1rem;
+    border: 0;
+    padding: 3vw;
+    border: 1px solid #dfdfe1;
+    margin-left: 2vw
+}
+
+.train-input {
+    border: 0
+}
+
+#suru {
+    width: 59vw;
+    height: 5rem;
+    margin-top: -0.7rem;
+    color: #999
+}
+
+.page {
+    padding-left: 1rem!important
+}
+
+body {
+    overflow-x: hidden
+}

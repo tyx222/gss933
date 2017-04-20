@@ -1,0 +1,195 @@
+.page {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    width: 85vw;
+    font-weight: 400;
+    font-size: 1.2rem
+}
+
+textarea {
+    resize: none;
+    width: 100vw;
+    height: 12rem;
+    margin-top: 1rem;
+    border: 0;
+    padding: 3vw
+}
+
+.train-input {
+    height: auto;
+    background: #fff;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    margin-top: 1rem
+}
+
+.train-input>p {
+    padding-left: 2rem;
+    color: #666;
+    width: 90vw;
+    height: 3rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.train-input>form {
+    padding-left: 2rem;
+    color: #666;
+    width: 90vw;
+    height: 3rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.diqu {
+    padding-left: 2rem;
+    color: #666;
+    width: 90vw;
+    height: auto;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.diqu1 {
+    padding-left: 2rem;
+    color: #666;
+    width: 90vw;
+    height: auto;
+    line-height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.diqu1 li {
+    border: 1px solid #000;
+    height: 2rem;
+    width: 80vw;
+    display: flex;
+    padding-left: 1rem;
+    align-items: center
+}
+
+.train-input span {
+    width: 60vw
+}
+
+.h5 {
+    height: 3rem;
+    width: 100vw;
+    line-height: 3rem;
+    padding-left: 2rem;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 400
+}
+
+.chair-input {
+    padding-left: 2rem;
+    color: #666;
+    width: 100vw;
+    height: 3rem;
+    line-height: 3rem;
+    display: flex;
+    background: #fff;
+    align-items: center;
+}
+
+.bttn {
+    width: 30vw;
+    background: #F49401;
+    color: #fff;
+    border: 0
+}
+
+.chair-input p input {
+    border: 0;
+    height: 2rem;
+    outline: medium;
+}
+
+.Ok-button {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.Ok-button>p {
+    width: 90vw;
+    margin-top: 1rem
+}
+
+.Ok {
+    height: 3rem;
+    width: 90vw;
+    color: #fff;
+    border: 0;
+    border-radius: 0.3rem;
+    background: #F49401;
+    font-size: 1.2rem
+}
+
+.height {
+    height: 8rem
+}
+
+.yero {
+    color: #F49401
+}
+
+.aler {
+    position: fixed;
+    background: #fff;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.btn {
+    position: fixed;
+    background: #fff;
+    height: auto;
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
+    z-index: 2;
+    top: 10rem;
+    border-radius: 1rem
+}
+
+.btn>button {
+    width: 6rem;
+    margin-top: 3rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background: #F49401;
+    border: 0;
+    color: #fff
+}
+
+.NO {
+    background: #666!important
+}
+
+.mc {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    opacity: 0.3;
+    top: 0;
+    background-color: #666
+}

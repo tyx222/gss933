@@ -1,0 +1,51 @@
+                .train-input {
+                    height: auto;
+                    background: #fff;
+                    width: 100vw;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    position: relative;
+                    align-items: center
+                }
+                
+                .train-input>p {
+                    padding-left: 1rem;
+                    color: #666;
+                    width: 100vw;
+                    height: 3rem;
+                    line-height: 3rem;
+                    display: flex;
+                    align-items: center;
+                    border: 1px solid #efefef;
+                    border-top: 0
+                }
+                
+                .train-input p input {
+                    border: 0;
+                    height: 2rem;
+                    outline: medium;
+                }
+                
+                .train-input span {
+                    width: 60vw
+                }
+                
+                .Ok-button {
+                    margin-top: 2rem;
+                    display: flex;
+                    justify-content: space-between
+                }
+                
+                .Ok {
+                    height: 3rem;
+                    width: 90vw;
+                    color: #fff;
+                    border: 0;
+                    border-radius: 0.3rem;
+                    background: #F49401;
+                }
+                
+                .heigh {
+                    height: 12rem
+                }

@@ -1,5 +1,5 @@
                 .train-input {
-                    height: 6rem;
+                    height: auto;
                     background: #fff;
                     width: 100vw;
                     display: flex;
@@ -13,11 +13,12 @@
                 .train-input>p {
                     padding-left: 2rem;
                     color: #666;
-                    width: 90vw;
+                    width: 100vw;
                     height: 3rem;
                     line-height: 3rem;
                     display: flex;
                     align-items: center;
+                    border-bottom: 1px solid #DFDFE1
                 }
                 
                 .train-input p input {

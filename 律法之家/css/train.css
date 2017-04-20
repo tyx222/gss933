@@ -1,5 +1,5 @@
                 .train-input {
-                    height: 6rem;
+                    height: auto;
                     background: #fff;
                     width: 100vw;
                     display: flex;
@@ -13,7 +13,7 @@
                 .train-input>p {
                     padding-left: 2rem;
                     color: #666;
-                    width: 90vw;
+                    width: 100vw;
                     height: 3rem;
                     line-height: 3rem;
                     display: flex;
@@ -27,7 +27,7 @@
                 }
                 
                 .train-input span {
-                    width: 60vw
+                    width: 50vw
                 }
                 
                 .page {

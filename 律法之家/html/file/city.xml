@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country name="中国" code="1">
+    <province name="北京" code="1">
+        <city name="东城" code="1"></city>
+        <city name="西城" code="2"></city>
+        <city name="崇文" code="3"></city>
+        <city name="宣武" code="4"></city>
+        <city name="朝阳" code="5"></city>
+        <city name="丰台" code="6"></city>
+        <city name="石景山" code="7"></city>
+        <city name="海淀" code="8"></city>
+        <city name="门头沟" code="9"></city>
+        <city name="房山" code="11"></city>
+        <city name="通州" code="12"></city>
+        <city name="顺义" code="13"></city>
+        <city name="昌平" code="14"></city>
+        <city name="大兴" code="15"></city>
+        <city name="怀柔" code="16"></city>
+        <city name="平谷" code="17"></city>
+        <city name="密云" code="18"></city>
+        <city name="延庆" code="19"></city>
+    </province>
+    <province name="上海" code="1">
+        <city name="黄浦" code="1"></city>
+        <city name="卢湾" code="2"></city>
+        <city name="徐汇" code="3"></city>
+        <city name="长宁" code="4"></city>
+        <city name="静安" code="5"></city>
+        <city name="普陀" code="6"></city>
+        <city name="闸北" code="7"></city>
+        <city name="虹口" code="8"></city>
+        <city name="杨浦" code="9"></city>
+        <city name="闵行" code="11"></city>
+        <city name="宝山" code="12"></city>
+        <city name="嘉定" code="13"></city>
+        <city name="浦东" code="14"></city>
+        <city name="金山" code="15"></city>
+        <city name="松江" code="16"></city>
+        <city name="青浦" code="17"></city>
+        <city name="南汇" code="18"></city>
+        <city name="奉贤" code="19"></city>
+        <city name="崇明" code="19"></city>
+    </province>
+    <province name="天津" code="2">
+        <city name="和平" code="1"></city>
+        <city name="河东" code="2"></city>
+        <city name="河西" code="3"></city>
+        <city name="南开" code="4"></city>
+        <city name="河北" code="5"></city>
+        <city name="红桥" code="6"></city>
+        <city name="塘沽" code="7"></city>
+        <city name="汉沽" code="8"></city>
+        <city name="大港" code="9"></city>
+        <city name="东丽" code="10"></city>
+        <city name="西青" code="11"></city>
+    </province>
+    <province name="重庆" code="1">
+        <city name="南川" code="1"></city>
+        <city name="万州" code="2"></city>
+        <city name="涪陵" code="3"></city>
+        <city name="渝中" code="4"></city>
+        <city name="大渡口" code="5"></city>
+        <city name="江北" code="6"></city>
+        <city name="沙坪坝" code="7"></city>
+        <city name="九龙坡" code="8"></city>
+        <city name="北碚" code="9"></city>
+        <city name="闵行" code="11"></city>
+        <city name="万盛" code="12"></city>
+        <city name="嘉定" code="13"></city>
+        <city name="浦东" code="14"></city>
+        <city name="金山" code="15"></city>
+        <city name="松江" code="16"></city>
+        <city name="青浦" code="17"></city>
+        <city name="南汇" code="18"></city>
+        <city name="奉贤" code="19"></city>
+        <city name="崇明" code="19"></city>
+    </province>
+    <province name="湖北" code="3">
+        <city name="黄冈" code="1">
+            <area name="黄梅"></area>
+            <area name="团风"></area>
+            <area name="红安"></area>
+            <area name="罗田"></area>
+            <area name="麻城"></area>
+            <area name="武穴"></area>
+            <area name="英山"></area>
+            <area name="蕲春"></area>
+            <area name="浠水"></area>
+        </city>
+        <city name="孝感" code="2"></city>
+        <city name="荆州" code="3"></city>
+        <city name="黄石" code="4"></city>
+        <city name="天门" code="5"></city>
+        <city name="襄阳" code="6"></city>
+        <city name="宜昌" code="7"></city>
+        <city name="咸宁" code="8"></city>
+        <city name="恩施" code="9"></city>
+        <city name="随州" code="10"></city>
+        <city name="武汉" code="11">
+            <area name="洪山"></area>
+            <area name="江夏"></area>
+            <area name="东西湖"></area>
+            <area name="武昌"></area>
+            <area name="江汉"></area>
+            <area name="江岸"></area>
+            <area name="青山"></area>
+            <area name="黄陂"></area>
+            <area name="蔡甸"></area>
+            <area name="汉阳"></area>
+        </city>
+        <city name="仙桃" code="12"></city>
+        <city name="潜江" code="13"></city>
+        <city name="十堰" code="14"></city>
+        <city name="荆门" code="15"></city>
+        <city name="鄂州" code="16"></city>
+    </province>
+</country>

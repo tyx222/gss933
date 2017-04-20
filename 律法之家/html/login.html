@@ -8,7 +8,7 @@
     <title>登录</title>
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/longin.css">
-    <script src="../js/crlr.js"></script>
+    <script src="../js/jquery1.4.4.min.js"></script>
 </head>
 
 <body>
@@ -21,17 +21,19 @@
         </ul>
     </header>
 
+
+
     <div class="login-input">
         <input type="number" name="" value="" placeholder="请输入手机号">
         <input type="password" name="" value="" placeholder="请输入密码">
     </div>
 
     <div class="login-button">
-        <a href=""><button class="singin">注册</button></a>
+        <button class="singin" onclick="document.location.href = 'singin.html '">注册</button>
         <button class="login">登录</button>
     </div>
-    <p class="Nopassword"><a href="">忘记密码?</a></p>
 
+    <p class="Nopassword"><a href="">忘记密码?</a></p>
 
 </body>
 

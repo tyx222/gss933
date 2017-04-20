@@ -1,5 +1,7 @@
                 .chair-input {
-                    height: 20rem;
+                    height: auto;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
                     background: #fff;
                     width: 100vw;
                     display: flex;
@@ -33,12 +35,15 @@
                     flex-direction: column;
                     justify-content: center;
                     text-align: center;
+                }
+                
+                .chair-input>ul>li>a>p {
                     color: #666;
-                    font-size: 0.8rem
+                    font-size: 0.8rem;
+                    min-height: 0.5rem
                 }
                 
                 .chair-input img {
                     width: 2rem;
                     height: 2rem;
-                    margin-left: 12vw
                 }

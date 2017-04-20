@@ -30,6 +30,14 @@
     border-radius: 0.3rem
 }
 
+form {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
 .singin {
     background: #6BBDD0;
     margin-right: 5vw

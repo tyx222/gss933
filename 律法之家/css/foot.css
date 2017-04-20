@@ -16,18 +16,22 @@
 
 .foot>ul>li {
     width: 20vw;
-    height: 3rem;
-    float: left
+    height: 3.5rem;
+    float: left;
+}
+
+.foot>ul>li>a>img {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .foot a {
     display: flex;
-    width: 15vw;
-    height: 3rem;
+    width: 19.5vw;
+    height: 3.5rem;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 5vw;
-    color: #666
+    text-align: center;
+    color: #666;
 }
 
 .foot img {

@@ -4,14 +4,17 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    font-family: "微软雅黑";
+    outline: none
 }
 
 body {
     background-color: #F0EFF4;
     justify-content: center;
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    overflow-x: hidden;
 }
 
 header {
@@ -26,7 +29,7 @@ header {
 }
 
 header li {
-    width: 33.3vw;
+    width: 25vw;
     height: 3rem;
     float: left;
     font-size: 1.2rem;
@@ -42,5 +45,7 @@ header img {
 }
 
 .title {
-    justify-content: center
+    justify-content: center;
+    display: flex;
+    width: 50vw
 }
