@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/change.js"></script>
+    <link rel="stylesheet" href="css/pulic.css">
+    <link rel="stylesheet" href="css/change.css">
+    <link rel="stylesheet" href="css/information.css">
+    <script>
+  
+ function imgPreview(fileDom){
+        if (window.FileReader) {
+            var reader = new FileReader();
+        } else {
+            alert("您的设备不支持图片预览功能，如需该功能请升级您的设备！");
+        }
+        var file = fileDom.files[0];
+        var imageType = /^image\//;
+        if (!imageType.test(file.type)) {
+            alert("请选择图片！");
+            return;
+        }
+        reader.onload = function(e) {
+            var img = document.getElementById("preview");
+            img.src = e.target.result;
+        };
+        reader.readAsDataURL(file);
+    }  
+
+        // var fileSelect = document.getElementById("preview"),
+        // fileElem = document.getElementById("upfile");
+
+ 
+    </script>
+</head>
+
+<body>
+    <div class="container mainBoxs" id="mainBox">
+        <div class="nav">
+            <div class="black" onclick="javascript:history.back(-1)">&lt;返回</div>
+            <p>会员中心</p>
+            <img class="circle" src="img/circle_03.png" alt="">
+        </div>
+
+        <img src="img/5.png" alt="">
+        <div class="conter">
+            <div class="background">
+                <!--这里插图片-->
+                <img src="../zizi/img/timg.jpg" alt="" id="preview">
+                <input type="file" accept='image/*' name="" value="" onchange="imgPreview(this)" id="upfile">
+                <button type="submit" id="OK">确定上传</button>
+                
+            </div>
+            <div class="text">
+                <!--这里插内容-->
+            </div>
+        </div>
+        <div class="footerPhone">
+            <div>
+                <a id="phone" href="tel:4006666666"><img src="img/4.png" alt=""><label for="phone"> 一键拨号</label></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

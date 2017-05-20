@@ -1,0 +1,1472 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <meta name="keywords" content="同程商旅,同程商旅网,同程商旅官网,年会,会议,会场布置,年会场地,会议室,场地,会议场地,会议酒店,酒店会议,会议室预订,会场出租">
+    <meta name="description" content="　　同程商旅，帮你免费订会场，60,000+场地随便选，15分钟搞定档期报价，无中介费节省费用30%-50%。同程商旅还有特价场地等你来选。订会场，找同程商旅，省钱省力！">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="v2/css/reset.css">
+    <link rel="stylesheet" href="js/layer/skin/layer.css">
+    <link rel="stylesheet" href="js/pikaday/pikaday151.min.css">
+    <link rel="stylesheet" href="v2/css/common.css?v=2017042003">
+    <link rel="stylesheet" href="v2/css/common_header.css?v=2017042003">
+    <meta name="baidu-site-verification" content="9aHG26zvoZ" />
+    <link href="v2/js/bxslider/jquery.bxslider.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="v2/css/index.css?v=2017042003">
+    <link rel="stylesheet" href="build/ycss/req/publish-0e82085813.css" class="link2">
+    <script src="js/jquery.1.11.3.min.js"></script>
+    <script src="js/pikaday/pikaday151.min.js"></script>
+    <script src="js/layer/layer.2.1.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="popcity?ver=2017040101"></script>
+    <script src="v2/js/public.js?v=2017042101"></script>
+    <!--HGGUVCOUNT-->
+    <!--<script title="站内UV统计" type="text/javascript">
+        (function() {
+            _dt_access_ip = "120.26.232.246";
+            var dom = document.createElement("script");
+            dom.src = "http://s.hotelgg.com/js/spm.js?v=2017042101";
+            var target = document.getElementsByTagName("script")[0];
+            target.parentNode.insertBefore(dom, target);
+        })();
+    </script>-->
+
+    <!--<script title="百度统计" type="text/javascript">
+        var _hmt = _hmt || [];
+        (function() {
+            var code = 'b79b69bc2b825cc7924d4db20cf14aeb';
+            var hm = document.createElement("script");
+            hm.src = "/hm.baidu.com/hm.js?" + code;
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>-->
+    <script>
+        window._pt_lt = (new Date).getTime()
+        $(document).ready(function() {
+            var Width = $(window).width()
+            if (Width <= 599) {
+                $(".link2").attr("href", "build/ycss/req/publish2-0e82085813.css")
+                $(".mianbao").click(function() {
+                    $("#nav").fadeToggle()
+                })
+
+            } else if (Width >= 599) {
+                $(".link2").attr("href", "build/ycss/req/publish-0e82085813.css")
+            }
+        })
+
+        sessionStorage.lastname = "hao"
+    </script>
+</head>
+
+<body>
+    <!--头部-->
+    <div class="hgg-header">
+        <div class="hgg-header-box">
+            <div class="header-wrap container clearfix">
+                <div class="row cl">
+                    <div class="header-logo col-3">
+                        <h1 class="header-logo-inner">
+                            <a href="" class="hgg-logo" title="首页" alt="同程商旅"><img src="img/logo.png" alt="" class="logoimg"></a>
+                        </h1>
+                        <div class="header-local">
+                            <div class="local-city">
+                                <a href="javascript:void(0);" class="local-city-link">
+                                    <span>武汉</span>
+                                    <i class="hggfont hgg-small-arrow"></i>
+                                </a>
+                            </div>
+                            <p class="hgg-slogen">免费帮订会场</p>
+                        </div>
+                    </div>
+                    <ul class="header-nav col-4">
+                        <li class="header-nav-active">
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="mianfeichangdi.html">免费找会场</a>
+                        </li>
+                        <li>
+                            <a href="biaodan.html">找会议顾问</a>
+                        </li>
+                    </ul>
+                    <div class="header-search col-3">
+                        <form action="venue/m/?">
+                            <div class="form-block form-block-radius">
+                                <input type="text" name="keywords" placeholder="城市名/酒店名/关键词" class="form-field form-field-radius" value="">
+                                <i class="hggfont hgg-sousuo" onclick="$(this).parents('form').submit()">搜索</i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--over-->
+    <div class="mianbao">小面包导航</div>
+    <div class="nav" id="nav">
+        <div class="navConten">
+            <div class="navConten-one hide cOverflow">会议类型</div>
+            <ul class="navJs">
+                <a href="index.html" onclick='ga("send","event","C00_导航","C00A01_首页","C00A01L00_0")'>
+                    <li class="nav_e navIndex_e">首页</li>
+                </a>
+                <a href="mianfeichangdi.html" onclick='ga("send","event","C00_导航","C00A03_找场地","C00A03L00_0")'>
+                    <li class="nav_e">找场地
+                        <div class="hot_show">
+                            <div id="hot-icon"></div>
+                        </div>
+                    </li>
+                </a>
+                <li id="J_pkg_wrp" class="nav_e"><a class="sup-pkg-title nav_e" style="color: #fff" href="tuangou.html">团购套餐</a>
+                    <!--<div id="J_other_pkg" class="other-pkg-wrp cOverflow"> <a href="beijing/tuangou-8-0-0-0" class="pkg-item">年会</a> <a href="beijing/tuangou-1-0-0-0" class="pkg-item">培训会</a> <a href="beijing/tuangou-14-0-0-0" class="pkg-item">拓展团建</a> </div>
+                    <div class="more-pkg"></div>-->
+                </li>
+                <a href="biaodan.html" onclick='ga("send","event","C00_导航","C00A04_方案服务","C00A04L00_0")'>
+                    <li class="project_hot">方案服务
+                        <div class="hot_show">
+                            <div id="hot-icon"></div>
+                        </div>
+                    </li>
+                </a>
+                <a href="jjj.html" onclick='ga("send","event","C00_导航","C00A05_会议专题","C00A05L00_0")'>
+                    <li class="nav_e">会议攻略</li>
+                </a>
+                <a href="peitao/www.huixiaoer.com/default.html" onclick='ga("send","event","C00_导航","C00A06_其他服务","C00A06L00_0")'>
+                    <li class="nav_e">配套服务</li>
+                </a><input type="hidden" value="4" id="navType"></ul>
+        </div>
+    </div>
+
+
+    <div class="hgg-banner">
+        <div class="hgg-banner-wrap">
+            <div class="hgg-slider home-slider">
+                <div class="container">
+                    <ul class="bxslider">
+                        <li>
+                            <img src="v2/img/banner/hgg_banner_view.png">
+                        </li>
+                        <li>
+                            <img src="v2/img/banner/hgg_banner_save.png">
+                        </li>
+                    </ul>
+                </div>
+                <span class="prev">&lt;<?php/*TOOD这里要换iconfont*/?></span>
+                <span class="next"><i class="hggfont">&#xe612;</i></span>
+            </div>
+        </div>
+
+        <div class="hgg-banner-container container">
+            <div class="hgg-search-container">
+                <div class="tabs">
+                    <a href="javascript:void(0)" class="active">
+                        <h6>免费帮找会场<small>（856人正在用）</small></h6>
+                    </a>
+                    <a href="javascript:void(0)">
+                        <h6>自己找会场<small>（231人正在用）</small></h6>
+                    </a>
+                </div>
+                <div class="tabs-content search-help">
+
+                    <div class="form-group form-group-level form-check-area">
+                        <label class="form-title">类型</label>
+                        <div class="form-details">
+                            <label class="checkbox">
+                <input type="checkbox" name="category_ids" data-ids="7,1,2,5" value="酒店会场" checked="checked">酒店会场
+            </label>
+                            <label class="checkbox">
+                <input type="checkbox" name="category_ids" data-ids="6" value="会议中心">会议中心
+            </label>
+                            <label class="checkbox">
+                <input type="checkbox" name="category_ids" data-ids="9,10" value="餐厅或咖啡厅">餐厅/咖啡厅
+            </label>
+                            <label class="checkbox">
+                <input type="checkbox" name="category_ids" data-ids="3" value="其他特色会场">其他特色会场
+            </label>
+                        </div>
+                    </div>
+                    <div class="form-group-row">
+                        <div class="form-group form-group-level">
+                            <label class="form-title">城市</label>
+                            <div class="form-details">
+                                <label class="form-block">
+                                <input type="text" class="form-field change_city" name="city_name" required="required" readonly="readonly" value="武汉" callback="citySelected">
+                                <i class="hggfont hgg-down-arrow"></i>
+                            </label>
+                            </div>
+                        </div>
+                        <div class="form-group form-group-level">
+                            <label class="form-title">日期</label>
+                            <div class="form-details">
+                                <label class="form-block">
+                                <input type="text" class="form-field datepicker" name="start_date" required="required" readonly="readonly" value="2017-05-01" callback="startDateSelected">
+                                <i class="hggfont hgg-down-arrow"></i>
+                            </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group-row">
+                        <div class="form-group form-group-level">
+                            <label class="form-title">人数</label>
+                            <div class="form-details">
+                                <label class="form-block">
+                                <input type="text" class="form-field selectbox" name="people_num" required="required" readonly="readonly" data-list="0~50,51~100,101~150,151~300,301~500,501~1000,1000以上" callback="peopleNumSelected">
+                                <i class="hggfont hgg-down-arrow"></i>
+                            </label>
+                            </div>
+                        </div>
+                        <div class="form-group form-group-level">
+                            <label class="form-title">预算</label>
+                            <div class="form-details">
+                                <label class="form-block">
+                                <input type="text" class="form-field selectbox" name="meetingroom_budget" required="required" readonly="readonly" data-list="5千以下,5千~1万,1万~2万,2万~5万,5万~10万,10万~20万,20万以上" callback="meetingroomBudgetSelected">
+                                <i class="hggfont hgg-down-arrow"></i>
+                            </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group form-group-level form-check-area">
+                        <label class="form-title">需求</label>
+                        <div class="form-details">
+                            <label class="checkbox">
+                            <input type="checkbox" name="meetingroom" value="需要会场" checked="checked">会场
+                        </label>
+                            <label class="checkbox">
+                            <input type="checkbox" name="guestroom" value="需要住宿">住宿
+                        </label>
+                            <label class="checkbox">
+                            <input type="checkbox" name="catering" value="需要餐饮">餐饮
+                        </label>
+                            <label class="checkbox">
+                            <input type="checkbox" name="teabreak" value="需要茶歇">茶歇
+                        </label>
+                        </div>
+                    </div>
+                    <div class="form-group form-group-btn form-group-level">
+                        <div class="form-details">
+                            <a id="js-submit-demands" class="btn">确定</a>
+                            <span class="hgg-search-txt">
+                            今天已帮<strong class="hot">5,325</strong>人找到合适会场
+                        </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-content search-self" style="display: none;">
+
+                    <div class="form-group form-group-level form-check-area">
+                        <label class="form-title">类型</label>
+                        <div class="form-details">
+                            <label class="checkbox">
+                <input type="checkbox" name="category_ids" data-ids="7,1,2,5" value="酒店会场" checked="checked">酒店会场
+            </label>
+                            <label class="checkbox">
+                <input type="checkbox" name="category_ids" data-ids="6" value="会议中心">会议中心
+            </label>
+                            <label class="checkbox">
+                <input type="checkbox" name="category_ids" data-ids="9,10" value="餐厅或咖啡厅">餐厅/咖啡厅
+            </label>
+                            <label class="checkbox">
+                <input type="checkbox" name="category_ids" data-ids="3" value="其他特色会场">其他特色会场
+            </label>
+                        </div>
+                    </div>
+                    <div class="form-group-row">
+                        <div class="form-group form-group-level">
+                            <label class="form-title">城市</label>
+                            <label class="form-details form-block">
+                            <input type="text" class="form-field change_city" name="city_name" required="required" readonly="readonly" value="武汉" callback="citySelected">
+                            <i class="hggfont hgg-down-arrow"></i>
+                        </label>
+                        </div>
+                        <div class="form-group form-group-level">
+                            <label class="form-title">人数</label>
+                            <label class="form-details form-block">
+                            <input type="text" class="form-field selectbox" name="people_num" required="required" readonly="readonly" data-list="0~50,51~100,101~150,151~300,301~500,501~1000,1000以上" callback="peopleNumSelected">
+                            <i class="hggfont hgg-down-arrow"></i>
+                        </label>
+                        </div>
+                    </div>
+                    <div class="form-group form-group-level form-group-keywords">
+                        <label class="form-details">
+                        <input type="text" name="search_keywords" placeholder="关键词" value="" class="form-field" callback="setSearchKeywords">
+                    </label>
+                    </div>
+                    <div class="form-group form-group-btn form-group-level">
+                        <div class="form-details">
+                            <a id="js-submit-search" class="btn">确定</a>
+                            <span class="hgg-search-txt">
+                            共<strong class="hot">1,246</strong>个会场可选
+                        </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hgg-advan-panel">
+        <div class="container clearfix">
+            <div class="col-4">
+                <i class="hgg-icon-set hgg-advan-more"></i>
+                <h3>60,000+场地</h3>
+                <p>覆盖中国98%会场酒店</p>
+            </div>
+            <div class="col-4">
+                <i class="hgg-icon-set hgg-advan-fast"></i>
+                <h3>15分钟拿到报价</h3>
+                <p>需求确认后APP端会飞速收到报价</p>
+            </div>
+            <div class="col-4">
+                <i class="hgg-icon-set hgg-advan-save"></i>
+                <h3>平均节省30%费用</h3>
+                <p>集中采购价格优惠，透明无中介费</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="hgg-small-banner container">
+        <a href="download/app" target="_blank">
+            <img src="v2/img/banner/hgg_banner_download.png">
+        </a>
+    </div>
+    <div class="container hgg-item-panel hgg-hot-menu">
+        <div class="item-panel-title row clearfix">
+            <h3 class="col-9">热门导航<small>已覆盖全国325城市，共8万个会议场地</small></h3>
+            <span class="col-3">
+            <a href="venue/Bwuhan-huichang.html" target="_blank" class="hf_area_more">
+                更多筛选条件 &gt;
+            </a>
+        </span>
+        </div>
+        <div class="hot-menu-main row clearfix">
+            <div class="col-9">
+                <div class="hot-menu">
+                    <div class="hot-menu-item clearfix">
+                        <i class="hggfont hgg-guajian hot-menu-slidericon"></i>
+                        <div class="hot-menu-group clearfix">
+                            <span class="hot-menu-title">会场类型</span>
+                            <a href="venue/Bwuhan-Fdingji-huichang.html" target="_blank">五星/顶级</a>
+                            <a href="venue/Bwuhan-Fhaohua-huichang.html" target="_blank">五星/豪华</a>
+                            <a href="venue/Bwuhan-Fgaodang-huichang.html" target="_blank">四星/高档</a>
+                            <a href="venue/Bwuhan-Fshushi-huichang.html" target="_blank">三星/舒适</a>
+                            <a href="venue/Bwuhan-Fjingji-huichang.html" target="_blank">经济型</a>
+                            <a href="venue/Bwuhan-Ftese-huichang.html" target="_blank">特色场地</a>
+                            <a href="venue/Bwuhan-Fresorts-huichang.html" target="_blank">度假中心</a>
+                            <a href="venue/Bwuhan-Fhuiyizhongxin-huichang.html" target="_blank">会议中心</a>
+                        </div>
+                    </div>
+                    <div class="hot-menu-item clearfix">
+                        <i class="hggfont hgg-qunzu hot-menu-slidericon"></i>
+                        <div class="hot-menu-group clearfix">
+                            <span class="hot-menu-title">容纳人数</span>
+                            <a href="venue/Bwuhan-E50ren-huichang.html" target="_blank">10-50人</a>
+                            <a href="venue/Bwuhan-E100ren-huichang.html" target="_blank">51-100人</a>
+                            <a href="venue/Bwuhan-E150ren-huichang.html" target="_blank">101-150人</a>
+                            <a href="venue/Bwuhan-E300ren-huichang.html" target="_blank">151-300人</a>
+                            <a href="venue/Bwuhan-E500ren-huichang.html" target="_blank">301-500人</a>
+                            <a href="venue/Bwuhan-E1000ren-huichang.html" target="_blank">501-1000人</a>
+                            <a href="venue/Bwuhan-E1001ren-huichang.html" target="_blank">1000人以上</a>
+                        </div>
+                    </div>
+                    <div class="hot-menu-item clearfix">
+                        <i class="hggfont hgg-suozaidi hot-menu-slidericon"></i>
+                        <div class="hot-menu-group clearfix">
+                            <span class="hot-menu-title">全部区域</span>
+                            <a href="venue/Bwuhan-huichang.html#pos=subway" target="_blank">地铁沿线</a>
+                            <a href="venue/Bwuhan-C1544-huichang.html" target="_blank">
+                            江岸区                        </a>
+                            <a href="venue/Bwuhan-C1545-huichang.html" target="_blank">
+                            武昌区                        </a>
+                            <a href="venue/Bwuhan-C1546-huichang.html" target="_blank">
+                            江汉区                        </a>
+                            <a href="venue/Bwuhan-C1547-huichang.html" target="_blank">
+                            硚口区                        </a>
+                            <a href="venue/Bwuhan-C1548-huichang.html" target="_blank">
+                            汉阳区                        </a>
+                            <a href="venue/Bwuhan-C1549-huichang.html" target="_blank">
+                            青山区                        </a>
+                            <a href="venue/Bwuhan-C1550-huichang.html" target="_blank">
+                            洪山区                        </a>
+                            <a href="venue/Bwuhan-C1551-huichang.html" target="_blank">
+                            东西湖区                        </a>
+                            <a href="venue/Bwuhan-huichang.html" target="_blank" class="hot-menu-more">更多 &gt;</a>
+                        </div>
+                    </div>
+                    <div class="hot-menu-kinds clearfix">
+                        <a href="venue/Bwuhan-huichang.html#pos=a_area" target="_blank">
+                            <i class="hggfont hgg-lingyu"></i>
+                            <p>行政区域</p>
+                        </a>
+                        <a href="venue/Bwuhan-huichang.html#pos=business" target="_blank">
+                            <i class="hggfont hgg-shangchang"></i>
+                            <p>热门商圈</p>
+                        </a>
+                        <a href="venue/Bwuhan-huichang.html#pos=subway" target="_blank">
+                            <i class="hggfont hgg-ditie"></i>
+                            <p>地铁周边</p>
+                        </a>
+                        <a href="venue/Bwuhan-huichang.html#pos=airport" target="_blank">
+                            <i class="hggfont hgg-feiji"></i>
+                            <p>机场车站</p>
+                        </a>
+                        <a href="venue/Bwuhan-huichang.html#pos=attractions" target="_blank">
+                            <i class="hggfont hgg-new-jingdian"></i>
+                            <p>热门景点</p>
+                        </a>
+                        <a href="venue/Bwuhan-huichang.html#pos=hall" target="_blank">
+                            <i class="hggfont hgg-mtr"></i>
+                            <p>展馆周边</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-menu-slider col-3">
+                <a href="mianfeichangdi.html" target="_blank" class="search-map-link">
+                    <div class="search-map">
+                        <img src="v2/img/pic/m_fh.png" class="ditu">
+                    </div>
+                    <div class="search-map-fix">
+                        <i class="hggfont hgg-ditu"></i>
+                        <h3>地图找会场</h3>
+                        <span class="btn btn-white-solid btn-small">快速查找你身边的会场</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container hgg-item-panel hgg-adviser">
+        <div class="item-panel-title row clearfix">
+            <h3 class="col-9">免费会议顾问<small>专业的会议顾问，他们更懂会</small></h3>
+            <span class="col-3">
+            <a href="planner" target="_blank" class="hf_area_more">
+                更多会议顾问 &gt;
+            </a>
+        </span>
+        </div>
+        <div class="adviser-main">
+            <div class="adviser-pic col-4"><img src="v2/img/pic/hgg_adviser.png" alt=""></div>
+            <div class="adviser-info clearfix">
+                <dl class="adviser-info-item">
+                    <dt class="hot">专业顾问团</dt>
+                    <dd><i>·</i>15分钟获得3-5套方案</dd>
+                    <dd><i>·</i>智联6万家酒店和特色场地</dd>
+                    <dd><i>·</i>6万家场地竞价，省钱30%</dd>
+                    <dd><i>·</i>一对一会务顾问咨询服务</dd>
+                </dl>
+                <dl class="adviser-info-item">
+                    <dt>我们为您提供</dt>
+                    <dd><i class="hggfont hgg-success"></i>免费咨询服务</dd>
+                    <dd><i class="hggfont hgg-success"></i>一对一沟通服务</dd>
+                    <dd><i class="hggfont hgg-success"></i>定制会议活动方案</dd>
+                    <dd><i class="hggfont hgg-success"></i>帮您省时省钱</dd>
+                    <dd class="adviser-info-btn">
+                        <a href="biaodan.html" target="_blank" class="btn btn-yellow btn-full">免费获取方案</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <div class="container hgg-item-panel hgg-recommend">
+        <div class="item-panel-title row clearfix">
+            <h3 class="col-9">本月推荐场地<small>推荐国内最有价值的场地</small></h3>
+            <span class="col-3">
+            <a href="venue/Bwuhan-huichang.html" target="_blank" class="hf_area_more">
+                更多推荐 &gt;
+            </a>
+        </span>
+        </div>
+        <div class="recommend-main clearfix">
+            <div class="recommend-box col-4">
+                <a href="view-4621.html" target="_blank">
+                    <div class="recommend-item">
+                        <div class="recommend-item-pic">
+                            <img src="http://cdn.hotelgg.com/rec/slider/item/f6e68d339d8570da50d5ff7983864885.jpg@400w" width="100%" height="264">
+                        </div>
+                        <div class="recommend-item-title clearfix">
+                            <span href="view-4621.html" target="_blank" class="recommend-item-name">
+                            武汉洲际酒店                        </span>
+                            <span class="star">
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                    </span>
+                        </div>
+                        <div class="recommend-item-detail clearfix">
+                            <div class="recommend-item-info">
+                                <span>汉阳区</span>
+                                <span class="split">|</span>
+                                <span>72间会议室</span>
+                                <span class="split">|</span>
+                                <span>容纳0~9936人</span>
+                            </div>
+                            <span class="recommend-item-price">
+                            <dfn>¥</dfn>
+                            <strong>30000</strong>
+                            <em>起</em>
+                        </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="recommend-box col-4">
+                <a href="view-3822.html" target="_blank">
+                    <div class="recommend-item">
+                        <div class="recommend-item-pic">
+                            <img src="http://cdn.hotelgg.com/rec/slider/item/3b235268e12fa3ea0f5133e3203a25c4.jpg@400w" width="100%" height="264">
+                        </div>
+                        <div class="recommend-item-title clearfix">
+                            <span href="view-3822.html" target="_blank" class="recommend-item-name">
+                            武汉光谷凯悦酒店                        </span>
+                            <span class="star">
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                    </span>
+                        </div>
+                        <div class="recommend-item-detail clearfix">
+                            <div class="recommend-item-info">
+                                <span>洪山区</span>
+                                <span class="split">|</span>
+                                <span>9间会议室</span>
+                                <span class="split">|</span>
+                                <span>容纳15~800人</span>
+                            </div>
+                            <span class="recommend-item-price">
+                            <dfn>¥</dfn>
+                            <strong>5000</strong>
+                            <em>起</em>
+                        </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="recommend-box col-4">
+                <a href="view-4623.html" target="_blank">
+                    <div class="recommend-item">
+                        <div class="recommend-item-pic">
+                            <img src="http://cdn.hotelgg.com/rec/slider/item/96c205a94954ea1d2f8e024c272f0a72.jpg@400w" width="100%" height="264">
+                        </div>
+                        <div class="recommend-item-title clearfix">
+                            <span href="view-4623.html" target="_blank" class="recommend-item-name">
+                            南通如东林克斯温泉酒店                        </span>
+                            <span class="star">
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                        <i class="hggfont hgg-surface-star"></i>
+                                                    </span>
+                        </div>
+                        <div class="recommend-item-detail clearfix">
+                            <div class="recommend-item-info">
+                                <span>如东县</span>
+                                <span class="split">|</span>
+                                <span>5间会议室</span>
+                                <span class="split">|</span>
+                                <span>容纳12~300人</span>
+                            </div>
+                            <span class="recommend-item-price">
+                            <dfn>¥</dfn>
+                            <strong>2400</strong>
+                            <em>起</em>
+                        </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container hgg-item-panel hgg-use  hidd">
+        <div class="item-panel-title row clearfix">
+            <h3 class="col-9">谁在用同程商旅</h3>
+        </div>
+        <div class="use-main">
+            <div class="tabs clearfix">
+                <div id="js-tabs-wrap" class="curousel-wrap">
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/alibaba.png?v=2017041802" data-dark="v2/img/logo/alibaba1.png?v=2017041802" src="v2/img/logo/alibaba.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/baidu.png?v=2017041802" data-dark="v2/img/logo/baidu1.png?v=2017041802" src="v2/img/logo/baidu1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/tengxun.png?v=2017041802" data-dark="v2/img/logo/tengxun1.png?v=2017041802" src="v2/img/logo/tengxun1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/huawei.png?v=2017041802" data-dark="v2/img/logo/huawei1.png?v=2017041802" src="v2/img/logo/huawei1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/moke.png?v=2017041802" data-dark="v2/img/logo/moke1.png?v=2017041802" src="v2/img/logo/moke1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/novo.png?v=2017041802" data-dark="v2/img/logo/novo1.png?v=2017041802" src="v2/img/logo/novo1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/pingan.png?v=2017041802" data-dark="v2/img/logo/pingan1.png?v=2017041802" src="v2/img/logo/pingan1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/tengxunshiping.png?v=2017041802" data-dark="v2/img/logo/tengxunshiping1.png?v=2017041802" src="v2/img/logo/tengxunshiping1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/xindongfang.png?v=2017041802" data-dark="v2/img/logo/xindongfang1.png?v=2017041802" src="v2/img/logo/xindongfang1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/xiaohongshu.png?v=2017041802" data-dark="v2/img/logo/xiaohongshu1.png?v=2017041802" src="v2/img/logo/xiaohongshu1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/oulaiya.png?v=2017041802" data-dark="v2/img/logo/oulaiya1.png?v=2017041802" src="v2/img/logo/oulaiya1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/hengda.png?v=2017041802" data-dark="v2/img/logo/hengda1.png?v=2017041802" src="v2/img/logo/hengda1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/liepin.png?v=2017041802" data-dark="v2/img/logo/liepin1.png?v=2017041802" src="v2/img/logo/liepin1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/qiancheng.png?v=2017041802" data-dark="v2/img/logo/qiancheng1.png?v=2017041802" src="v2/img/logo/qiancheng1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/tongyong.png?v=2017041802" data-dark="v2/img/logo/tongyong1.png?v=2017041802" src="v2/img/logo/tongyong1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/jingdong.png?v=2017041802" data-dark="v2/img/logo/jingdong1.png?v=2017041802" src="v2/img/logo/jingdong1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/ximenzi.png?v=2017041802" data-dark="v2/img/logo/ximenzi1.png?v=2017041802" src="v2/img/logo/ximenzi1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/yiou.png?v=2017041802" data-dark="v2/img/logo/yiou1.png?v=2017041802" src="v2/img/logo/yiou1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/yixin.png?v=2017041802" data-dark="v2/img/logo/yixin1.png?v=2017041802" src="v2/img/logo/yixin1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/fenghuang.png?v=2017041802" data-dark="v2/img/logo/fenghuang1.png?v=2017041802" src="v2/img/logo/fenghuang1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <span>
+                    <img class="carousel-img" data-light="v2/img/logo/weipinhui.png?v=2017041802" data-dark="v2/img/logo/weipinhui1.png?v=2017041802" src="v2/img/logo/weipinhui1.png?v=2017041802" width="144" height="72">
+                </span>
+                    <!--<span>
+                    <img class="carousel-img" data-light="v2/img/logo/dazhong.png?v=2017041802" data-dark="v2/img/logo/dazhong1.png?v=2017041802" src="v2/img/logo/dazhong1.png?v=2017041802" width="144" height="72">
+                </span>-->
+                </div>
+                <div class="tabs-shim"></div>
+            </div>
+            <div class="use-tabs-content">
+                <a href="javascript:void(0);" class="use-previous-next previous">
+                    <i class="hgg-icon-set"></i>
+                </a>
+                <a href="javascript:void(0);" class="use-previous-next next">
+                    <i class="hgg-icon-set"></i>
+                </a>
+                <div class="use-tabs-box">
+                    <i class="hggfont hgg-shangyinhao"></i>
+                    <i class="hggfont hgg-xiayinhao"></i>
+                    <div class="use-tabs-txt">经过多方的会议服务供应商挑选与测评，最终选择了同程商旅。同程商旅的会议服务系统让我们的会议采购流程更加的合规、透明，并且用互联网的精神解决了会议上的许多难题。</div>
+                    <div class="use-tabs-txt dn">同程商旅是一家非常具有互联网思想的公司，让办会的过程越来越方便，也去掉了中间的环节，节省了会议费用。</div>
+                    <div class="use-tabs-txt dn">我们非常高兴看到在中国的互联网行业里出现了像同程商旅这样的公司，帮助我们打破信息的壁垒，让信息的流通更加地透明、快速，这就是互联给我们生活带来的改变与意义。</div>
+                    <div class="use-tabs-txt dn">同程商旅的成长速度是让人吃惊的，他们在越做越好，也让我们的办会流程越来越方便。定制化贴心的服务让人印象深刻。</div>
+                    <div class="use-tabs-txt dn">对于医药行业而言，办会流程的合规和费用的透明化是大难题，同程商旅为我们定制的会议采购系统完美地帮助我们解决了这个难题。与此同时还节省了会议的开支，对于企业而言是非常利好的。</div>
+                    <div class="use-tabs-txt dn">每年公司在办会上都会有很大的支出，通过同程商旅定制的系统直采酒店，不仅节省了会议的开支，而且所有的报价及结算的明细在系统上都有记录，让每一笔会议的支出都可以被清楚地查询，非常棒。</div>
+                    <div class="use-tabs-txt dn">对多家供应商进行了考核与甄选，评估下来决定选用同程商旅。同程商旅良好的信誉度及出色靠谱的表现让我们非常认可。</div>
+                    <div class="use-tabs-txt dn">操作方便、响应快捷，在同程商旅找场地办会流程非常简单，会议顾问也热心负责。</div>
+                    <div class="use-tabs-txt dn">同程商旅提供的服务很专业，给到的价格也非常优惠，使用同程商旅是一件非常省心的事。</div>
+                    <div class="use-tabs-txt dn">同程商旅在全国各地都有场地资源，而且有专业的会议顾问能推荐合适的场地，对于去外地办会很有帮助。</div>
+                    <div class="use-tabs-txt dn">同程商旅提供的专业的采购系统极大地节省我们办会的费用成本及时间成本，让我们能更高效地办会。</div>
+                    <div class="use-tabs-txt dn">公司常有多地的会议需求，同程商旅具有全国各地的场地资源，能根据我们的会议需求帮助我们找到合适的会场，并且会议顾问的服务很专业热情，值得推荐。</div>
+                    <div class="use-tabs-txt dn">同程商旅改变了传统，让我们办会找酒店不再是一家家打电话去询问，而是提供了一个平台，让我们能仅通过这一个平台就能对接到各个酒店，非常方便。</div>
+                    <div class="use-tabs-txt dn">同程商旅有一批专业的顾问团队，熟悉各地的酒店和场地，能提供合适靠谱的会议方案及报价，服务专业而热情。</div>
+                    <div class="use-tabs-txt dn">同程商旅覆盖了全国的酒店和场地，每次办会的时候会有多个酒店报价，进行多方比价，最终选到最合适的活动方案。</div>
+                    <div class="use-tabs-txt dn">服务专业、操作便捷、态度热情。每一次在同程商旅上找场地总能得到良好的服务体验，会议顾问会帮忙推荐合适的酒店，省时省心。</div>
+                    <div class="use-tabs-txt dn">每次的会议活动都能收到多个酒店的报价，可以从中选择价格和各方面条件合适的酒店。</div>
+                    <div class="use-tabs-txt dn">同程商旅相比于传统的会议服务商，有更多的酒店资源，并且去掉了中间的环节，让整个办会的流程更加简单。</div>
+                    <div class="use-tabs-txt dn">同程商旅不仅有场地资源，还有各种会议相关的资源，提供了一站式的会议服务，举办大型会议的时候所有的会议相关的事情都可以一站搞定，非常省心和贴心。</div>
+                    <div class="use-tabs-txt dn">会场的资源很丰富，全国的都可以查得到，顾问的响应速度也很及时，并且会全程跟进找会场的进度，很贴心。</div>
+                    <div class="use-tabs-txt dn">同程商旅的场地资源丰富，办大型会议的时候很难找到合适的场地，最后通过同程商旅找到了，整个合作过程很顺利。</div>
+                    <!--<div class="use-tabs-txt dn">同程商旅提供了很全面的会议服务，不仅可以对接酒店，还可以对接会议公司。办个会只要来同程商旅就可以解决所有的问题，很方便。</div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<div class="container hgg-item-panel hgg-news">
+        <div class="item-panel-title row clearfix">
+            <h3 class="col-9">媒体报道</h3>
+        </div>
+        <div class="new-list clearfix">
+            <a href="http://36kr.com/p/5065967.html" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_36kr.jpg?v=2017041802" alt="“同程商旅”发力会务产业链，旗下子公司“德甲”再获融资">
+            </a>
+            <a href="http://news.163.com/17/0110/12/CADU1NPJ00018AOP.html" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_wyxw.jpg?v=2017041802" alt="微信小程序昨日开放，同程商旅已率先搭上首班车!">
+            </a>
+            <a href="http://tech.qq.com/a/20151023/020867.htm" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_txkj.jpg?v=2017041802" alt="会议比价预订平台同程商旅获2000万B轮融资">
+            </a>
+            <a href="http://news.ifeng.com/a/20161125/50315939_0.shtml" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_fhzx.jpg?v=2017041802" alt="同程商旅：大品牌，大手笔，吹响年会集结号！">
+            </a>
+            <a href="http://www.travellinkdaily.com/tld/160314/4825.htm" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_travellink.jpg?v=2017041802" alt="同程商旅发布新品牌MeetingBest 专为大型企业提供服务">
+            </a>
+            <a href="http://tech.caijing.com.cn/2014-05-06/114157985.html" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_cjwkj.jpg?v=2017041802" alt="同程商旅：“找场地神器”的创业选择">
+            </a>
+            <a href="http://www.iyiou.com/p/24499" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_yow.jpg?v=2017041802" alt="场地与SaaS联姻，同程商旅500万元战略投资百格活动">
+            </a>
+            <a href="http://www.yicai.com/news/2014/08/4004347.html" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_ycw.jpg?v=2017041802" alt="同程商旅开拓“另类”酒店市场">
+            </a>
+            <a href="http://www.dotour.cn/article/17695.html" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_lyq.jpg?v=2017041802" alt="同程商旅：拿2000万美金后 不止打了微信朋友圈广告 还鼓捣出团房动态实时预订系统和担保交易服务">
+            </a>
+            <a href="http://www.meetings-conventions-china.com/Article.aspx?id=5914&amp;from=timeline&amp;isappinstalled=0" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_mc.jpg?v=2017041802" alt="从平台走向生态，同程商旅希望用创新的产品和模式改造会务产业">
+            </a>
+            <a href="http://traveldaily.cn/article/96469" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_hq.jpg?v=2017041802" alt="同程商旅融资2000万美元　要重塑整个会务行业">
+            </a>
+            <a href="http://www.iceo.com.cn/com2013/2015/1023/300232.shtml?from=timeline&amp;isappinstalled=0" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_iceo.jpg?v=2017041802" alt="互联网+一场年会 同程商旅是这样改造会务产业的">
+            </a>
+            <a href="http://hn.qq.com/a/20161221/030804.htm" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_qq.jpg?v=2017041802" alt="同程商旅：用户是我们唯一的老板，认认真真做好用户服务!">
+            </a>
+            <a href="http://news.xinhuanet.com/tech/2015-10/23/c_128351842.htm?from=timeline&amp;isappinstalled=0" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_xhw.jpg?v=2017041802" alt="会场比价预订平台“同程商旅”获2000万美元融资">
+            </a>
+            <a href="http://tech.sina.com.cn/i/2015-09-14/doc-ifxhupin3513546.shtml" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_sinakj.jpg?v=2017041802" alt="同程商旅创始人汤新满《享说》完整实录">
+            </a>
+            <a href="http://www.cyzone.cn/a/20150817/278849.html" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_cyb.jpg?v=2017041802" alt="会场预订平台同程商旅获 2000 万美元 B 轮融资">
+            </a>
+            <a href="http://www.meetingschina.com/News10234.html" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_hy.jpg?v=2017041802" alt="同程商旅：会议活动行业的滴滴打车和淘宝">
+            </a>
+            <a href="http://www.ttgchina.com/article.php?article_id=10356" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_ttg.jpg?v=2017041802" alt="同程商旅MICE平台推出新版移动终端设备">
+            </a>
+            <a href="http://tech.163.com/14/0514/09/9S6QOA6B00094ODU.html" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_wykj.jpg?v=2017041802" alt="同程商旅，只拉小手不做全套的会务交易平台">
+            </a>
+            <a href="http://it.sohu.com/20140430/n399017537.shtml" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_shkj.jpg?v=2017041802" alt="同程商旅获经纬百万美元A轮融资">
+            </a>
+            <a href="http://www.huxiu.com/article/32546/1.html" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_hx.jpg?v=2017041802" alt="【谁在创业】同程商旅：聚焦于会议型酒店，做不收返佣的携程">
+            </a>
+            <a href="http://36kr.com/p/5044428.html" target="_blank" rel="nofollow">
+                <img src="http://s.hotelgg.com/img/icon/media_logo/ml_36kr.jpg?v=2017041802" alt="同程商旅推出面向大企业的新品牌MeetingBest，双品牌战略以抢占MICE行业市场份额">
+            </a>
+        </div>
+    </div>-->
+    <div class="hgg-footer">
+        <div class="container clearfix">
+            <div class="col-9 clearfix">
+                <dl class="hgg-footer-item hgg-footer-tel col-3">
+                    <dt>
+                    <h4>客服电话</h4>
+                </dt>
+                    <dd>
+                        <h3 class="hot">0731-84318600</h3>
+                    </dd>
+                    <dd>服务时间：9:00-21:00</dd>
+                </dl>
+                <dl class="hgg-footer-item hgg-footer-product col-3">
+                    <dt>
+                    <h4>我们的产品</h4>
+                </dt>
+                    <dd><a href="" target="_blank">MeetingBest</a></dd>
+                    <dd><a href="" target="_blank">百格活动</a></dd>
+                    <dd><a href="" target="_blank">合规会议预订系统</a></dd>
+                    <dd><a href="" target="_blank">酒店会议室管理系统</a></dd>
+                </dl>
+                <dl class="hgg-footer-item hgg-footer-partner col-3">
+                    <dt>
+                    <h4>合作伙伴</h4>
+                </dt>
+                    <dd><a href="" target="_blank">酒店（销售）加盟</a></dd>
+                    <dd><a href="" target="_blank">会务服务商加盟</a></dd>
+                    <dd><a href="" target="_blank" class="hot">酒店销售后台登录</a></dd>
+                </dl>
+                <dl class="hgg-footer-item hgg-footer-us col-3">
+                    <dt>
+                    <h4>关于我们</h4>
+                </dt>
+                    <dd><a href="">联系我们</a></dd>
+                    <dd><a href="">招聘信息</a></dd>
+                    <dd><a href="">隐私条款</a></dd>
+                    <dd><a href="">最新动态</a></dd>
+                </dl>
+            </div>
+            <dl class="hgg-footer-item hgg-footer-code col-3">
+                <!--<dd>
+                    <div class="footer-code-box">
+                        <img src="v2/img/pic/hgg_code_hotelgg.png?v=2017041802">
+                    </div>
+                    <p>同程商旅App</p>
+                </dd>-->
+                <dd>
+                    <div class="footer-code-box">
+                        <img src="v2/img/pic/hgg_code_sale.png?v=2017041802">
+                    </div>
+                    <p>同程商旅公众号</p>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+
+    <script src="v2/js/bxslider/jquery.bxslider.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script type="text/javascript">
+        window.EVENT_BUDGET_RANGE = {
+            "5千以下": 5000,
+            "5千~1万": 5001,
+            "1万~2万": 10000,
+            "2万~5万": 20000,
+            "5万~10万": 50000,
+            "10万~20万": 100000,
+            "20万以上": 200000
+        };
+    </script>
+    <script type="text/javascript">
+        $(function() {
+            // 首页轮播图
+            $('.bxslider').bxSlider({
+                mode: 'fade',
+                captions: true,
+                controls: false,
+                auto: true,
+                pause: 5000,
+                speed: 1000
+            });
+
+            // 免费找会场 | 自己找会场 - TAB 切换
+            $('.hgg-search-container .tabs a').on('click', function() {
+                var index = $(this).index();
+                $('.hgg-search-container .tabs-content').eq(index).show().siblings('.tabs-content').hide();
+                $(this).addClass('active').siblings('a').removeClass('active');
+                return false;
+            });
+            // 城市选择回调
+            window.citySelected = function($handle) {
+                    // 触发下一级弹层
+                    var className = '.form-group.form-group-level';
+                    var $parents = $handle.parents(className);
+                    var $next = $parents.next(className);
+                    if ($next.get(0)) {
+                        $next.find('input[type="text"]').trigger('click');
+                    }
+                    // 实时会场数量统计
+                    var $form = $handle.parents('.tabs-content');
+                    realTimeCountVunue($form);
+                }
+                // 日期选择回调
+            window.startDateSelected = function($handle) {
+                    // 触发下一级弹层
+                    var className = '.form-group-row';
+                    var $parents = $handle.parents(className);
+                    var $next = $parents.next(className);
+                    var $sub = $next.find('.form-group.form-group-level').first();
+                    if ($sub.get(0)) {
+                        $sub.find('input[type="text"]').trigger('click');
+                    }
+                }
+                // 人数选择回调
+            window.peopleNumSelected = function($handle) {
+                    // 免费找会场 - 触发下一级弹层
+                    var className = '.form-group.form-group-level';
+                    var $parents = $handle.parents(className);
+                    var $next = $parents.next(className);
+                    if ($next.get(0)) {
+                        $next.find('input[type="text"]').trigger('click');
+                    }
+                    // 自己找会场 - 搜索关键词焦点
+                    if (!$next.get(0)) {
+                        var $parents = $handle.parents('.form-group-row');
+                        var $next = $parents.next(className + '.form-group-keywords');
+                        if ($next.get(0)) {
+                            $next.find('input[type="text"]').trigger('focus');
+                        }
+                    }
+                    // 实时会场数量统计
+                    var $form = $handle.parents('.tabs-content');
+                    realTimeCountVunue($form);
+                }
+                // 预算选择回调
+            window.meetingroomBudgetSelected = function($handle) {
+                // 实时会场数量统计
+                var $form = $handle.parents('.tabs-content');
+                realTimeCountVunue($form);
+            }
+
+            // 获取表单提交参数
+            // window.getFormData = function($form) {
+            //     var demands = {};
+            //     $form.find('[name]').each(function() {
+            //         var $handle = $(this);
+            //         var name = $handle.attr('name');
+            //         var value = $.trim($handle.val());
+            //         // 复选框特殊处理
+            //         if ($handle.is('[type=checkbox]')) {
+            //             if (!$handle.is(':checked')) {
+            //                 return true;
+            //             }
+            //             // 酒店类型特殊处理
+            //             if (name == 'category_ids') {
+            //                 demands[name] = demands[name] ?
+            //                     demands[name] + ',' + value :
+            //                     value;
+            //                 return true;
+            //             }
+            //         }
+            //         demands[name] = value;
+            //     });
+            //     return demands;
+            // }
+
+            // 根据用户选择项获取预算
+            window.getMeetingroomBudget = function(label) {
+                var config = window.EVENT_BUDGET_RANGE;
+                if (label && config[label]) {
+                    return config[label];
+                }
+                return 0;
+            }
+
+            // 自己找会场 - 实时查询会场数量
+            // window.realTimeCountVunue = function($form) {
+            //     if (!$form.hasClass('search-self')) {
+            //         return false;
+            //     }
+            //     var sendData = getFormData($form);
+            //     sendData.form_step1 = true;
+            //     sendData.meeting_count = true;
+            //     $.ajax({
+            //         url: 'index/demand',
+            //         type: 'POST',
+            //         dataType: 'json',
+            //         data: sendData,
+            //         success: function(resp, textStatus, xhr) {
+            //             if (resp.ret == 0 && resp.data) {
+            //                 var $target = $form.find('.form-group-btn .hgg-search-txt .hot');
+            //                 if (resp.data.total > 0) {
+            //                     $target.text(resp.data.total);
+            //                 }
+            //             }
+            //         }
+            //     });
+            // }
+
+            // 创建第二步表单
+            // window.createFormStep2 = function(json, $trigger, $warp) {
+            //     var $formStep2 = $warp.find('.form_step2');
+            //     if (!$formStep2.get(0)) {
+            //         $formStep2 = $('<div id="form_step2_warp" class="form-step-two">\
+            //     <div class="step-two-title">\
+            //         系统已匹配到<strong class="total_num"></strong>家符合你的需求的场地，\
+            //         将精选<strong class="hotel_num"></strong>家给你\
+            //     </div>\
+            //     <div class="form-group-row">\
+            //         <div class="form-group form-group-level">\
+            //             <label class="form-title form-title-right"><strong class="required">*</strong>手机号码</label>\
+            //             <div class="form-details">\
+            //                 <label class="form-block">\
+            //                     <input type="text" class="form-field" name="mobile_phone">\
+            //                 </label>\
+            //             </div>\
+            //         </div>\
+            //     </div>\
+            //     <div class="form-group-row">\
+            //     <div class="form-group form-group-level">\
+            //     <label class="form-title form-title-right">邮箱</label>\
+            //     <label class="form-details form-block">\
+            //     <input type="text" class="form-field" name="contact_email">\
+            //     </label>\
+            //     </div>\
+            //     </div>\
+            //     <div class="form-group form-group-level form-group-btn">\
+            //         <div class="form-details">\
+            //             <a class="btn">接收场地信息及报价</a>\
+            //         </div>\
+            //     </div>\
+            // </div>');
+            //         // 更新数据
+            //         if (json.data && json.data.total) {
+            //             $formStep2.find('strong.total_num').text(json.data.total);
+            //         }
+            //         if (json.data && json.data.num) {
+            //             $formStep2.find('strong.hotel_num').text(json.data.num);
+            //         }
+            //         if (json.data && json.data.email) {
+            //             $formStep2.find('input[name=contact_email]').val(json.data.email);
+            //         }
+            //         if (json.data && json.data.mobile) {
+            //             $formStep2.find('input[name=mobile_phone]').val(json.data.mobile);
+            //         }
+            //         // 定位布局
+            //         $formStep2.css({
+            //             position: 'absolute',
+            //             top: 0,
+            //             right: 0,
+            //             bottom: 0,
+            //             left: 0
+            //         });
+            //         // 第二步提交
+            //         $formStep2.find('a.btn').click(function() {
+            //             return formStep2Post($(this));
+            //         });
+            //         // 定位表单
+            //         $warp.css({
+            //             position: 'relative'
+            //         }).append($formStep2);
+            //     }
+            //     // 输入框获取焦点
+            //     $formStep2.find('input[name=mobile_phone]').focus();
+            //     $formStep2.show();
+            //     return true;
+            // }
+
+            // 创建第三步界面
+            // window.createFormStep3 = function(json, $trigger, $warp) {
+            //         var $formStep3 = $warp.find('.form_step3');
+            //         if (!$formStep3.get(0)) {
+            //             $formStep3 = $('<div id="form_step3_warp" class="step-three clearfix">\
+            //     <div class="qrcodebox">\
+            //         <img class="qrcode" src="img/icon/gzh_code.jpg" width="128" height="128">\
+            //         <span class="txt">- 微信扫一扫 -<br />- 得积分，换好礼 -</span>\
+            //     </div>\
+            //     <div class="sweettips">\
+            //         <h5>你的会议需求已成功提交</h5>\
+            //         <p>会议顾问会在15分钟左右与你联系<br />确认无误后帮你直联场地方</p>\
+            //         <h6 class="qrcode_txt">微信扫一下，关注进度并接收场地方报价</h6>\
+            //         <p class="back"><span>&lt; 返回</span></p>\
+            //     </div>\
+            // </div>');
+            //             // 更新数据
+            //             if (json.data && json.data.qrcode_img) {
+            //                 $formStep3.find('img.qrcode').attr('src', json.data.qrcode_img);
+            //             }
+            //             if (json.data && json.data.qrcode_txt) {
+            //                 $formStep3.find('h6.qrcode_txt').text(json.data.qrcode_txt);
+            //             }
+            //             // 定位布局
+            //             $formStep3.css({
+            //                 position: 'absolute',
+            //                 top: 0,
+            //                 right: 0,
+            //                 bottom: 0,
+            //                 left: 0
+            //             });
+            //             // 点击返回
+            //             $formStep3.find('p.back > span').click(function() {
+            //                 $('#form_step2_warp,#form_step3_warp').remove();
+            //             });
+            //             // 定位表单
+            //             $warp.css({
+            //                 position: 'relative'
+            //             }).append($formStep3);
+            //         }
+            //         $formStep3.show();
+            //         return true;
+            //     }
+            // 免费找会场
+            $('#js-submit-demands').click(function() {
+                var inpuu = []
+                var mold = []
+                var desired = []
+                var index = $(".search-help :text").length;
+                var hasChk = $('.form-details:eq(0) :checkbox').length
+                for (var i = 0; i < index; i++) {
+                    var text = $(".search-help :text").eq(i).val()
+                    inpuu.push(text)
+                }
+                for (var j = 0; j < hasChk; j++) {
+                    var lenth = $('.form-details:eq(0) :checkbox').eq(j).is(':checked')
+                    var lenth1 = $('.form-details:eq(5) :checkbox').eq(j).is(':checked')
+
+                    if (lenth === true) {
+                        mold.push($('.form-details:eq(0) :checkbox').eq(j).val())
+                    }
+                    if (lenth1 === true) {
+                        desired.push($('.form-details:eq(5) :checkbox').eq(j).val())
+                    }
+                }
+
+                var a = mold.join("-")
+                var b = desired.join("-")
+                    // var $curr = $(this);
+                    // if ($curr.data('disabled')) return false;
+                    // var $form = $curr.parents('.tabs-content.search-help');
+
+                // var sendData = getFormData($form);
+                // sendData.meetingroom_budget = getMeetingroomBudget(sendData.meetingroom_budget);
+                // sendData.form_step1 = true;
+                // 表单提交检查
+                // if (checkFormStep1Error(sendData)) {
+                //     return false;
+                // }
+
+                //$curr.data('disabled', true);
+                // layer.load(2, {
+                //     time: 2000
+                // });
+                if (text != "") {
+                    $(".search-help").html('<div id="form_step2_warp" class="form-step-two">\
+                <div class="form-group-row">\
+                    <div class="form-group form-group-level">\
+                        <label class="form-title form-title-right"><strong class="required">*</strong>手机号码</label>\
+                        <div class="form-details">\
+                            <label class="form-block">\
+                                <input type="text" class="form-field" name="mobile_phone">\
+                            </label>\
+                        </div>\
+                    </div>\
+                </div>\
+                <div class="form-group-row">\
+                <div class="form-group form-group-level">\
+                <label class="form-title form-title-right">邮箱</label>\
+                <label class="form-details form-block">\
+                <input type="text" class="form-field" name="contact_email">\
+                </label>\
+                </div>\
+                </div>\
+                <div class="form-group form-group-level form-group-btn">\
+                    <div class="form-details">\
+                        <a class="btn">接收场地信息及报价</a>\
+                    </div>\
+                </div>\
+            </div>')
+                    var $form = $('.tabs-content.search-help');
+                    var $mobile = $form.find('input[name=mobile_phone]'),
+                        $email = $form.find('input[name=contact_email]');
+                    $mobile.blur(function() {
+                        if ($mobile.val() == "") {
+                            layer.tips('请输入手机号码', $mobile);
+                            return true;
+                        } else if (!/^1[345678]\d{9}$/.test($mobile.val())) {
+                            layer.tips('请输入正确的手机号', $mobile);
+                            return true;
+                        } else {
+                            var phone = $form.find('input[name=mobile_phone]').val()
+
+                            $(".btn").click(function() {
+                                var pathPre = "http://123.207.43.181:8091"
+                                var dataDemand = {
+                                    "fullName": 'fullName', //客户名称 
+                                    "city": inpuu[0], //地区对象，所有地区的id集合通过接口getArea获取
+                                    "price": inpuu[3], //预算
+                                    "remarks": a, //需求描述
+                                    "keyWord": "2", //关键词
+                                    "quantity": inpuu[2], //会议人数
+                                    "phone": phone, //联系方式
+                                    "meetDate": inpuu[1], // 会议日期 格式：YY-MM-DD
+                                    "meetType": b, // 会议类型 0会场；1住宿；2餐饮；3茶歇
+                                    "content": "需求内容123", // 需求内容   
+                                    "email": $email.val()
+                                };
+                                $.ajax({
+                                    type: "POST",
+                                    url: pathPre + "/hotel/admin/rest/demand/save",
+                                    dataType: "json",
+                                    contentType: "application/json",
+                                    data: JSON.stringify(dataDemand),
+                                    success: function(data) {
+                                        if (data.code == "0") {
+                                            alert("调用成功,需求编号：" + data.demandId + "－－信息：" + data.msg);
+                                            console.log(dataDemand)
+                                            $(".search-help").html('<div id="form_step3_warp" class="step-three clearfix">\
+                <div class="qrcodebox">\
+                    <img class="qrcode" src="img/icon/gzh_code.jpg" width="128" height="128">\
+                    <span class="txt">- 微信扫一扫 -<br />- 得积分，换好礼 -</span>\
+                </div>\
+                <div class="sweettips">\
+                    <h5>你的会议需求已成功提交</h5>\
+                    <p>会议顾问会在15分钟左右与你联系<br />确认无误后帮你直联场地方</p>\
+                    <h6 class="qrcode_txt">微信扫一下，关注进度并接收场地方报价</h6>\
+                    <p class="back"><span>&lt; 返回</span></p>\
+                </div>\
+            </div>')
+                                            $(".back").click(function() {
+                                                location.reload()
+                                            })
+                                        } else {
+                                            layer.closeAll();
+                                            $curr.data('disabled', false);
+                                            layer.msg('操作失败，如需帮助请联系客服：0731-84318600');
+                                            return false;
+                                        }
+                                    }
+                                });
+
+                            })
+                        }
+                    })
+
+                } else {
+                    alert("请认真填写")
+                        ///$("#pop_city_dialog2017516").show()
+
+                }
+                // $.ajax({
+                //     url: 'index/demand',
+                //     type: 'POST',
+                //     dataType: 'json',
+                //     data: sendData,
+                //     success: function(resp, textStatus, xhr) {
+                //         layer.closeAll();
+                //         $curr.data('disabled', false);
+                //         if (resp.ret == 0 && resp.data) {
+                //             if (typeof(HGG) != 'undefined' && HGG.trackEvent) {
+                //                 HGG.trackEvent('XczsBs', {
+                //                     inquiry_form_1: sendData
+                //                 });
+                //             }
+                //             return createFormStep2(resp, $curr, $form);
+                //         }
+                //     },
+                //     error: function(xhr, textStatus, errorThrown) {
+                //         layer.closeAll();
+                //         $curr.data('disabled', false);
+                //         layer.msg('操作失败，如需帮助请联系客服：0731-84318600');
+                //         return false;
+                //     }
+                // });
+            });
+            // 第一步表单提交检查
+            window.checkFormStep1Error = function(json) {
+                    var $form = $('.tabs-content.search-help');
+                    var items = ['city_name', 'start_date', 'people_num', 'meetingroom_budget'];
+                    var hasError = false;
+                    $.each(items, function(i, key) {
+                        if (!json[key]) {
+                            $form.find('input[name=' + key + ']').trigger('click');
+                            hasError = true;
+                            return false;
+                        }
+                    });
+                    return hasError;
+                }
+                // 第二步表单提交检查
+            window.checkFormStep2Error = function(json) {
+                var $form = $('.tabs-content.search-help');
+                var $mobile = $form.find('input[name=mobile_phone]'),
+                    $email = $form.find('input[name=contact_email]');
+
+                if (!json.mobile_phone) {
+                    layer.tips('请输入手机号码', $mobile);
+                    return true;
+                } else if (!/^1[345678]\d{9}$/.test(json.mobile_phone)) {
+                    layer.tips('请输入正确的手机号', $mobile);
+                    return true;
+                } else if (json.contact_email && !validator.isEmail(json.contact_email)) {
+                    layer.tips('请输入正确的邮箱', $email);
+                    return true;
+                }
+
+                return false;
+            }
+
+            // 第二步表单提交
+            window.formStep2Post = function($curr) {
+                if ($curr.data('disabled')) return false;
+                var $form = $('.tabs-content.search-help');
+                var sendData = getFormData($form);
+                sendData.meetingroom_budget = getMeetingroomBudget(sendData.meetingroom_budget);
+                sendData.form_step2 = true;
+
+                // 表单提交检查
+                if (checkFormStep2Error(sendData)) {
+                    return false;
+                }
+
+                if (typeof(HGG) != 'undefined' && HGG.trackEvent) {
+                    HGG.trackEvent('H0z4QY');
+                }
+
+                $curr.data('disabled', true);
+                layer.load(2, {
+                    time: 3000
+                });
+                $.ajax({
+                    url: 'index/demand',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: sendData,
+                    success: function(resp, textStatus, xhr) {
+                        layer.closeAll();
+                        $curr.data('disabled', false);
+                        if (resp.ret > 0) {
+                            if (typeof(HGG) != 'undefined' && HGG.trackEvent) {
+                                HGG.trackEvent('2pC0YW');
+                            }
+                            layer.msg(resp.msg);
+                            return false;
+                        }
+                        if (resp.ret == 0 && resp.data) {
+                            if (typeof(HGG) != 'undefined' && HGG.trackEvent) {
+                                HGG.trackEvent('7jXqQw', {
+                                    inquiry_form_2: sendData
+                                });
+                            }
+                            return createFormStep3(resp, $curr, $form);
+                        }
+                    },
+                    error: function(xhr, textStatus, errorThrown) {
+                        layer.closeAll();
+                        $curr.data('disabled', false);
+                        if (typeof(HGG) != 'undefined' && HGG.trackEvent) {
+                            HGG.trackEvent('2pC0YW');
+                        }
+                        layer.alert('操作失败，如需帮助请联系客服：0731-84318600');
+                        return false;
+                    }
+                });
+                return true;
+            }
+
+            // 参数实时条件过滤
+            // $('.tabs-content .form-group-check input[type=checkbox]').click(function() {
+            //     var $form = $(this).parents('.tabs-content');
+            //     realTimeCountVunue($form);
+            // });
+
+            // 自己找会场
+            $('#js-submit-search').click(function() {
+                var $curr = $(this);
+                if ($curr.data('disabled')) return false;
+                var $form = $(this).parents('.tabs-content.search-self');
+                var sendData = getFormData($form);
+
+                if (sendData.search_keywords == '关键词') {
+                    sendData.search_keywords = '';
+                }
+                console.log($('.search-help'))
+                $curr.data('disabled', true);
+                layer.load(2, {
+                    time: 3000
+                });
+                if (typeof(HGG) != 'undefined' && HGG.trackEvent) {
+                    HGG.trackEvent('K2Dc5g');
+                }
+
+                var inpuu = []
+                var mold = []
+                var index = $(".search-self :text").length;
+                var hasChk = $('.form-details:eq(7) :checkbox').length
+                for (var i = 0; i < index; i++) {
+                    var text = $(".search-self :text").eq(i).val()
+                    inpuu.push(text)
+                }
+                for (var j = 0; j < hasChk; j++) {
+                    var lenth = $('.form-details:eq(7) :checkbox').eq(j).is(':checked')
+                    if (lenth === true) {
+                        mold.push($('.form-details:eq(7) :checkbox').eq(j).val())
+                    }
+                }
+                console.log(inpuu)
+                console.log(mold)
+
+            });
+
+            // DEBUG
+
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(function() {
+            // 谁在用同程商旅
+            var tabsLen = $('.carousel-img').length;
+            var setCarouselActive = (function() {
+                var initPos = $('#js-tabs-wrap').position(),
+                    safetyLeft = -144 * (tabsLen - 8);
+
+                return function setCarouselActive(idx, direction) {
+                    var $img = $('.carousel-img').eq(idx),
+                        $tabsWrap = $('#js-tabs-wrap'),
+                        marginLeft = parseInt($tabsWrap.css('marginLeft'));
+                    $('.use-main .use-tabs-content .use-tabs-box .use-tabs-txt')
+                        .eq(idx).show().siblings('.use-tabs-txt').hide();
+                    $('.carousel-img').each(function() {
+                        $(this).prop('src', $(this).attr('data-dark'));
+                    });
+                    $img.attr('src', $img.attr('data-light'));
+
+                    if (direction === 0) {
+                        return false;
+                    }
+
+                    direction = direction || 1;
+                    if (idx == 0) {
+                        $tabsWrap.css({
+                            'margin-left': '0px'
+                        });
+                    } else if (direction < 0 && (idx > tabsLen - 8)) {
+                        $tabsWrap.css({
+                            'margin-left': safetyLeft + 'px'
+                        });
+                    } else if ((idx <= 7)) {
+                        $tabsWrap.css({
+                            'margin-left': '0px'
+                        });
+                    } else {
+                        $tabsWrap.css({
+                            'margin-left': ((idx - 7) * -144) + 'px'
+                        });
+                    }
+                }
+            })();
+
+            // 谁在用同程商旅 - 图标 hover
+            $('.use-main .tabs span').hover(function() {
+                var index = $('.use-main .tabs  span').index($(this));
+                setCarouselActive(index, 0);
+            }, null);
+
+            // 谁在有同程商旅 - 上一个/下一个
+            $('.use-main .use-tabs-content .hgg-icon-set').click(function() {
+                var $curr = $('.use-main .use-tabs-content .use-tabs-box .use-tabs-txt:visible'),
+                    idx = $('.use-tabs-txt').index($curr),
+                    len = $('.use-tabs-txt').length;
+
+                if ($(this).parent().hasClass('next')) {
+                    idx = (idx + 1 >= len) ? 0 : (idx + 1);
+                    setCarouselActive(idx, 1);
+                } else if ($(this).parent().hasClass('previous')) {
+                    idx = (idx - 1 < 0) ? (len - 1) : (idx - 1);
+                    setCarouselActive(idx, -1);
+                }
+
+            });
+
+            setInterval(function() {
+                $('.use-main .use-tabs-content .hgg-icon-set.next').trigger('click');
+            }, 6000);
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('main').className += 'loaded';
+        });
+    </script>
+</body>
+
+</html>

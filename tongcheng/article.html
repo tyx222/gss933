@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>文章管理管理</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="decorator" content="default"/>
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script> 
+	<script type="text/javascript">
+		$(document).ready(function() {
+		  //本地测试
+		  // var pathPre = "http://localhost:8080";
+		  //测试环境测试
+		  var pathPre = "http://123.207.43.181:8091";
+
+		  //根据条件获取需求列表
+		  ;$("#articleGet").click(function(){
+		        var dataArticle = {
+		            "id":"50c2f895e7404af78edf8b0ab17b199a", // 文章id
+		            "type":"0"//文章类型
+		        };
+
+		        $.ajax({ 
+		            type:"POST", 
+		            url:pathPre+"/hotel/admin/rest/article/getdata", 
+		            dataType:"json",      
+		            contentType:"application/json",               
+		            data:JSON.stringify(dataArticle), 
+		            success:function(data){ 
+		                if(data.code == "0"){
+		                	var content = data.Data[0].content;
+							//1.获取
+							$("#rich_content").html(content);
+							//2.转化
+							$("#rich_content").html( $("#rich_content").text());
+		                    alert("调用成功! ");
+		                }else{
+		                    alert("内部错误！");
+		                }        
+		            } 
+		        }); 
+		  });
+		});
+	</script>
+</head>
+<body class="hideScroll">
+		<table class="">
+		   <tbody>
+				<tr>
+					<td>
+						<h2>文章内容</h2>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div id="rich_content">
+                           
+
+                        </div>
+					</td>
+				</tr>
+		 	</tbody>
+		</table>
+
+    <input type="button" id="articleGet" name="articleGet" value="获取文章数据"><br>
+</body>
+</html>

@@ -1,0 +1,467 @@
+@media screen and (min-width: 599px) {
+    body {
+        background: #eeeeee
+    }
+    li {
+        padding: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+    .g_content {
+        width: 1170px;
+        margin: 20px auto 20px;
+    }
+    .gLeft {
+        width: 330px;
+        float: left;
+    }
+    .leftNav {
+        width: 277px;
+        padding: 0px 24px 26px 29px;
+        background: #fff;
+        overflow: hidden;
+    }
+    .leftNav h1 {
+        font-size: 24px;
+        color: #000;
+        margin-top: 20px;
+    }
+    .leftNav ul li {
+        padding-left: 10px;
+        height: 37px;
+        line-height: 37px;
+        margin-top: 26px;
+        font-size: 14px;
+        display: flex;
+        align-items: center
+    }
+    .leftNav ul li:hover,
+    .leftNav ul .active {
+        background: #207bee;
+        color: #fff;
+    }
+    .leftNav ul li i {
+        margin-right: 5px;
+    }
+    .wxImg {
+        width: 302px;
+        padding: 25px 12px 22px 16px;
+        overflow: hidden;
+        margin-top: 20px;
+        background: #fff;
+    }
+    .wxImg img {
+        float: left;
+        margin-right: 11px;
+    }
+    .wxImg div {
+        text-align: center;
+        font-size: 14px;
+        line-height: 40px;
+        color: #bc1212;
+    }
+    .wxImg div p {
+        font-size: 22px;
+        font-weight: bolder;
+        color: #000;
+        margin-top: 20px;
+    }
+    .ggBox {
+        width: 330px;
+        height: 170px;
+        background: #c9c9c9;
+        text-align: center;
+        line-height: 170px;
+        margin-top: 21px;
+    }
+    /*攻略列表*/
+    .gRight {
+        margin-left: 30px;
+        background: #fff;
+        width: 810px;
+        float: right;
+        padding: 20px 0;
+    }
+    .items {
+        min-height: 930px;
+    }
+    .tabNav {
+        overflow: hidden;
+        padding: 0 30px;
+    }
+    .tabNav a {
+        display: block;
+        float: left;
+        width: 56px;
+        margin-left: 10px;
+        border-radius: 10px;
+        height: 25px;
+        color: #999999;
+        text-decoration: none;
+        line-height: 25px;
+        text-align: center;
+    }
+    .tabNav a:hover,
+    .tabNav .active {
+        background: #0b6fb4;
+        color: #fff;
+    }
+    .tabList {
+        overflow: hidden;
+    }
+    .tabList ul li {
+        -webkit-box-shadow: 0px 1px 4px #999;
+        -moz-box-shadow: 0px 1px 4px #999;
+        box-shadow: 0px 1px 14px #999;
+        float: left;
+        width: 360px;
+        margin: 25px 0 10px 30px;
+    }
+    .tabList ul li p {
+        padding: 0 20px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        line-height: 25px;
+        color: #333333;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .tabList ul li .fwBox {
+        margin-top: 17px;
+        overflow: hidden;
+        padding: 0 20px 20px;
+    }
+    .tabList ul li .fwBox i,
+    .tabList ul li .fwBox span {
+        float: left;
+        margin-right: 20px;
+        font-size: 12px;
+        color: #999999;
+        margin-top: 3px;
+    }
+    .tabList ul li .fwBox .share {
+        height: 16px;
+        float: right;
+    }
+    .tabList ul li .fwBox .share span {
+        margin: 0px;
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    /*攻略详情*/
+    .glCont {
+        padding: 0 30px;
+        min-height: 800px;
+        overflow: hidden;
+    }
+    .glCont img {
+        max-width: 750px;
+    }
+    .glCont h1 {
+        font-size: 24px;
+    }
+    .xqShare {
+        overflow: hidden;
+        margin-top: 17px;
+    }
+    .xqShare span {
+        font-size: 13px;
+        color: #999;
+    }
+    .Ccont {
+        margin-top: 30px;
+    }
+    .Ccont p {
+        color: #333;
+        font-size: 14px;
+        line-height: 25px;
+        word-break: break-all;
+    }
+    .Ccont img {
+        display: inline-block;
+        margin: 10px 0 0px 0;
+    }
+    .page {
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .page ul li {
+        float: left;
+        width: 350px;
+        color: #333;
+        background: url('../images/lineImg.png') no-repeat left center;
+        padding-left: 10px;
+    }
+    /*精彩专题*/
+    .jcBox {
+        padding: 10px 0px;
+        min-height: 900px;
+    }
+    .jcBox ul li {
+        float: left;
+        margin: 10px 0 20px 30px;
+        -webkit-box-shadow: 0px 4px 4px #999;
+        -moz-box-shadow: 0px 4px 4px #999;
+        box-shadow: 0px 4px 14px #999;
+        padding: 5px;
+    }
+    .jcBox ul li p {
+        margin: 15px 0 12px;
+        color: #333;
+        font-size: 16px;
+        font-family: 微软雅黑;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 361px;
+    }
+    .imgBox {
+        width: 750px;
+    }
+    .imgBox img {
+        width: 100%
+    }
+    .tabList>ul>li>a>span {
+        display: block;
+        width: 361px;
+        height: 230px;
+        overflow: hidden
+    }
+}
+
+
+/*移动端*/
+
+@media screen and (max-width: 599px) {
+    body {
+        background: #eeeeee;
+        overflow-x: hidden
+    }
+    .clearfix {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        padding: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+    .g_content {
+        width: 100vw;
+    }
+    .gLeft {
+        width: 100vw;
+        float: left;
+    }
+    .leftNav {
+        width: 100vw;
+        padding: 0px 1rem 1rem 1rem;
+        background: #fff;
+        overflow: hidden;
+    }
+    .leftNav h1 {
+        font-size: 24px;
+        color: #000;
+        margin-top: 20px;
+    }
+    .leftNav ul li {
+        padding-left: 10px;
+        height: 3rem;
+        line-height: 3rem;
+        margin-top: 26px;
+        font-size: 1.5rem;
+    }
+    .leftNav>ul {
+        display: none;
+    }
+    .leftNav ul li:hover,
+    .leftNav ul .active {
+        background: #a31f33;
+        color: #fff;
+    }
+    .leftNav ul li i {
+        margin-right: 5px;
+    }
+    .wxImg {
+        width: 100vw;
+        padding: 25px 12px 22px 16px;
+        overflow: hidden;
+        margin-top: 20px;
+        background: #fff;
+    }
+    .wxImg img {
+        float: left;
+        margin-right: 11px;
+    }
+    .wxImg div {
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 40px;
+        color: #bc1212;
+    }
+    .wxImg div p {
+        font-size: 2rem;
+        font-weight: bolder;
+        color: #000;
+        margin-top: 20px;
+    }
+    .ggBox {
+        width: 100vw;
+        height: 170px;
+        background: #c9c9c9;
+        text-align: center;
+        line-height: 170px;
+        margin-top: 21px;
+    }
+    /*攻略列表*/
+    .gRight {
+        background: #fff;
+        width: 100vw;
+        float: right;
+        padding: 20px 0;
+    }
+    .items {
+        min-height: 930px;
+    }
+    .tabNav {
+        overflow: hidden;
+    }
+    .tabNav a {
+        display: block;
+        float: left;
+        width: 56px;
+        margin-left: 10px;
+        border-radius: 10px;
+        height: 25px;
+        color: #999999;
+        text-decoration: none;
+        line-height: 25px;
+        text-align: center;
+    }
+    .tabNav a:hover,
+    .tabNav .active {
+        background: #0b6fb4;
+        color: #fff;
+    }
+    .tabList {
+        overflow: hidden;
+    }
+    .tabList ul li {
+        -webkit-box-shadow: 0px 1px 4px #999;
+        -moz-box-shadow: 0px 1px 4px #999;
+        box-shadow: 0px 1px 14px #999;
+        width: 100vw;
+        margin-top: 2rem
+    }
+    .tabList ul li p {
+        padding: 0 20px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        line-height: 25px;
+        color: #333333;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .tabList ul li .fwBox {
+        margin-top: 17px;
+        overflow: hidden;
+        padding: 0 20px 20px;
+    }
+    .tabList ul li .fwBox i,
+    .tabList ul li .fwBox span {
+        float: left;
+        margin-right: 20px;
+        font-size: 12px;
+        color: #999999;
+        margin-top: 3px;
+    }
+    .tabList ul li .fwBox .share {
+        height: 16px;
+        float: right;
+    }
+    .tabList ul li .fwBox .share span {
+        margin: 0px;
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    /*攻略详情*/
+    .glCont {
+        padding: 0 30px;
+        min-height: 800px;
+        overflow: hidden;
+    }
+    .glCont img {
+        max-width: 750px;
+    }
+    .glCont h1 {
+        font-size: 24px;
+    }
+    .xqShare {
+        overflow: hidden;
+        margin-top: 17px;
+    }
+    .xqShare span {
+        font-size: 13px;
+        color: #999;
+    }
+    .Ccont {
+        margin-top: 30px;
+    }
+    .Ccont p {
+        color: #333;
+        font-size: 14px;
+        line-height: 25px;
+        word-break: break-all;
+    }
+    .Ccont img {
+        display: inline-block;
+        margin: 10px 0 0px 0;
+    }
+    .page {
+        overflow: hidden;
+        margin-top: 20px;
+    }
+    .page ul li {
+        float: left;
+        width: 350px;
+        color: #333;
+        background: url('../images/lineImg.png') no-repeat left center;
+        padding-left: 10px;
+    }
+    /*精彩专题*/
+    .jcBox {
+        padding: 10px 0px;
+        min-height: 900px;
+    }
+    .jcBox ul li {
+        float: left;
+        margin: 10px 0 20px 30px;
+        -webkit-box-shadow: 0px 4px 4px #999;
+        -moz-box-shadow: 0px 4px 4px #999;
+        box-shadow: 0px 4px 14px #999;
+        padding: 5px;
+    }
+    .jcBox ul li p {
+        margin: 15px 0 12px;
+        color: #333;
+        font-size: 16px;
+        font-family: 微软雅黑;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 361px;
+    }
+    .imgBox {
+        width: 750px;
+    }
+    .imgBox img {
+        width: 100%
+    }
+}
